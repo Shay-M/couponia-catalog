@@ -1,3 +1,4 @@
+from contextlib import closing
 import json
 from datetime import datetime, timezone
 from pathlib import Path
@@ -37,7 +38,7 @@ class CatalogTest(unittest.TestCase):
         self.assertEqual(report['counts']['catalogCardMerchantLinks'],504)
         self.assertEqual(report['counts']['benefitCandidates'],1)
         self.assertEqual(report['counts']['freshBenefitCandidates'],0)
-        with sqlite3.connect(path/'catalog.db') as c:
+        with closing(sqlite3.connect(path/'catalog.db')) as c:
             self.assertEqual(c.execute('select freshness from benefit_candidates').fetchone()[0],'stale')
             self.assertEqual(c.execute('pragma user_version').fetchone()[0],3)
             self.assertEqual(c.execute('pragma foreign_key_check').fetchall(),[])
@@ -45,7 +46,7 @@ class CatalogTest(unittest.TestCase):
     def test_buyme_only_as_unverified_candidates(self):
         path,report=self.generate(buyme=BUYME)
         self.assertEqual(report['counts']['buymeAcceptanceCandidates'],2)
-        with sqlite3.connect(path/'catalog.db') as c:
+        with closing(sqlite3.connect(path/'catalog.db')) as c:
             self.assertEqual(c.execute("select count(*) from card_merchants where source_id='buyme-mcp'").fetchone()[0],0)
 
     def test_wrong_card_scope_rejected(self):

@@ -1,9 +1,8 @@
-
 name: Build unified Israeli gift-card catalog
 
 on:
   schedule:
-    - cron: '23 4 * * 1'
+    - cron: '23 4 * * *'
   workflow_dispatch:
 
 permissions:
@@ -26,21 +25,48 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Test pipeline
+
+      - name: Run tests
         run: python -m unittest discover -s tests -v
-      - name: Generate catalog
+
+      - name: Watch upstream community catalog changes (metadata only)
+        # This step only prints GitHub commit IDs; BUYME data is never republished.
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python src/watch_sources.py
+
+      - name: Build new snapshot from authorized sources
+        # No fallback to empty feeds. A failed source fetch must NOT erase
+        # data already published by a previous successful deployment.
         run: |
-          if ! python src/build.py \
+          python src/build.py \
             --seed seed/catalog-v2.db \
             --clawsavings-url https://raw.githubusercontent.com/yhyatt/ClawSavings/main/discounts.json \
-            --out dist/v3; then
-            echo "::warning::Optional feed failed; using seed."
-            python src/build.py --seed seed/catalog-v2.db --out dist/v3
-          fi
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
+            --out dist/v3
+
+      - name: Compare with last published catalog
+        id: release
+        env:
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: |
+          OWNER_LOWER="${REPOSITORY_OWNER,,}"
+          python src/release.py --out dist/v3 \
+            --previous-url "https://${OWNER_LOWER}.github.io/${REPOSITORY_NAME}/v3"
+
+      - name: Configure GitHub Pages
+        if: steps.release.outputs.changed == 'true'
+        uses: actions/configure-pages@v5
+      - name: Upload validated catalog
+        if: steps.release.outputs.changed == 'true'
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - name: Publish catalog
+      - name: Publish updated catalog
+        if: steps.release.outputs.changed == 'true'
         id: deploy
         uses: actions/deploy-pages@v4
+      - name: Already up to date
+        if: steps.release.outputs.changed == 'false'
+        run: echo 'No catalog content changes. GitHub Pages was left unchanged.'

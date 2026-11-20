@@ -8,6 +8,7 @@ import hashlib
 import json
 import os
 from datetime import date, datetime, timezone
+from contextlib import closing
 from pathlib import Path
 import re
 import shutil
@@ -173,7 +174,7 @@ def build(seed, output, claw=None, buyme=None, minimum=100, clock=None):
     shutil.copyfile(seed, stage)
     n_claw=n_buyme=0
     try:
-        with sqlite3.connect(stage) as db:
+        with closing(sqlite3.connect(stage)) as db:
             db.execute('PRAGMA foreign_keys=ON')
             initialize(db)
             if claw is not None:
