@@ -1,0 +1,46 @@
+
+name: Build unified Israeli gift-card catalog
+
+on:
+  schedule:
+    - cron: '23 4 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-catalog
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test pipeline
+        run: python -m unittest discover -s tests -v
+      - name: Generate catalog
+        run: |
+          if ! python src/build.py \
+            --seed seed/catalog-v2.db \
+            --clawsavings-url https://raw.githubusercontent.com/yhyatt/ClawSavings/main/discounts.json \
+            --out dist/v3; then
+            echo "::warning::Optional feed failed; using seed."
+            python src/build.py --seed seed/catalog-v2.db --out dist/v3
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - name: Publish catalog
+        id: deploy
+        uses: actions/deploy-pages@v4
