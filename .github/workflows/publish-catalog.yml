@@ -29,6 +29,9 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -v
 
+      - name: Warn on stale manually curated issuer listings
+        run: python -m src.review_status --curated-file config/curated_issuer_facts.json
+
       - name: Watch upstream community catalog changes (metadata only)
         # This step only prints GitHub commit IDs; BUYME data is never republished.
         continue-on-error: true
@@ -42,6 +45,7 @@ jobs:
         run: |
           python src/build.py \
             --seed seed/catalog-v2.db \
+            --curated-file config/curated_issuer_facts.json \
             --clawsavings-url https://raw.githubusercontent.com/yhyatt/ClawSavings/main/discounts.json \
             --out dist/v3
 

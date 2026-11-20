@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-11-21",
+  "policy": "Small manually reviewed issuer-product facts; never treat incomplete listings as a full or POS-verified merchant directory.",
+  "cards": [
+    {
+      "id": "isracard-gift-card",
+      "name": "Gift Card (Isracard)",
+      "issuer": "Isracard",
+      "sourceId": "isracard-gift-card-official",
+      "sourceUrl": "https://www.isracard.co.il/credit-cards/gift-card",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Issuer page shows a partial list. Terms and participating branches may change; check the official issuer list before purchase.",
+      "merchants": [
+        {"name":"THE CHILDRENS PLACE","existingName":"The Children's Place"},
+        {"name":"ניין ווסט","existingName":"NINE WEST"},
+        "ורדינון", "גלי",
+        {"name":"לי קופר","existingName":"Lee Cooper"},
+        "סולוג",
+        {"name":"אמריקן איגל","existingName":"American Eagle"},
+        "Billabong", "נעמן", "TOMMY HILFIGER", "צומת ספרים", "FOX", "Laline", "FOX HOME"
+      ]
+    },
+    {
+      "id": "isracard-gift-card-isracard",
+      "name": "Gift Card Isracard",
+      "issuer": "Isracard",
+      "sourceId": "isracard-gift-card-food-official",
+      "sourceUrl": "https://www.isracard.co.il/credit-cards/gift-card-isracard",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Issuer lists food and other participating businesses. Product is distinct from the Gift Card at /gift-card; partial list only.",
+      "merchants": ["FACTORY54", "סופר יודה", "היפר דודו", "הסטוק", "DIESEL", "שירה מרקט", "טיב טעם", "פרש מרקט", "נתיב החסד", "בר כל טוב", "H&M", "מחסני השוק", "חצי חינם", "ויקטורי"]
+    },
+    {
+      "id": "max-gift-card",
+      "name": "Gift Card MAX",
+      "issuer": "MAX",
+      "sourceId": "max-gift-card-official",
+      "sourceUrl": "https://www.max.co.il/cards/giftcards",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Issuer confirms product; no merchant associations imported until exact product and channel restrictions are reviewed.",
+      "merchants": []
+    },
+    {
+      "id": "max-super-gift-card",
+      "name": "Super Gift Card MAX",
+      "issuer": "MAX",
+      "sourceId": "max-super-gift-card-official",
+      "sourceUrl": "https://www.max.co.il/cards/giftcards",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Different MAX product. Do not transfer retailers from ordinary MAX Gift Card by assumption.",
+      "merchants": []
+    },
+    {
+      "id": "gifta-gift-card",
+      "name": "Gifta Gift Card",
+      "issuer": "Gifta",
+      "sourceId": "gifta-gift-card-official",
+      "sourceUrl": "https://gifta.co.il/שאלות-ותשובות-2/",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Issuer confirms physical and digital Gift Card products. Merchant acceptance varies by card subtype; no unverified relationships imported.",
+      "merchants": []
+    },
+    {
+      "id": "gifta-food",
+      "name": "Gifta Food",
+      "issuer": "Gifta",
+      "sourceId": "gifta-food-official",
+      "sourceUrl": "https://gifta.co.il/גיפטא-פוד/",
+      "observedAt": "2026-11-21T00:00:00Z",
+      "notes": "Separate issuer-listed product; exact compatible merchants pending independent review.",
+      "merchants": []
+    }
+  ]
+}

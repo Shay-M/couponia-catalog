@@ -13,16 +13,16 @@ from pathlib import Path
 import re
 import shutil
 import sqlite3
-import unicodedata
 from urllib.request import Request, urlopen
+
+# Also support the established CLI form: python src/build.py
+if __package__ in (None, ''):
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from src.identity import normalize, match_names
 
 CLAW_REPO = 'https://github.com/yhyatt/ClawSavings'
 BUYME_REPO = 'https://github.com/eladkishon/buyme-mcp'
-
-
-def normalize(value):
-    s = unicodedata.normalize('NFKC', str(value or '')).casefold()
-    return ' '.join(re.sub(r'[^\w\u0590-\u05ff]+', ' ', s).split())
 
 
 def checksum(*values):
@@ -71,15 +71,6 @@ def initialize(db):
             PRIMARY KEY (origin, external_id));
         CREATE INDEX IF NOT EXISTS idx_candidates_merchant ON benefit_candidates(matched_merchant_id);
     ''')
-
-
-def match_names(db):
-    aliases = {}
-    for mid, name in db.execute('SELECT id,name FROM merchants'):
-        aliases.setdefault(normalize(name), set()).add(mid)
-    for alias, mid in db.execute('SELECT alias, merchant_id FROM merchant_aliases'):
-        aliases.setdefault(normalize(alias), set()).add(mid)
-    return {key: next(iter(ids)) for key, ids in aliases.items() if key and len(ids) == 1}
 
 
 def import_clawsavings(db, payload, now):
@@ -165,7 +156,7 @@ def json_write(path, data):
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
 
 
-def build(seed, output, claw=None, buyme=None, minimum=100, clock=None):
+def build(seed, output, claw=None, buyme=None, minimum=100, clock=None, curated=None):
     output = Path(output)
     output.mkdir(parents=True, exist_ok=True)
     now = clock or datetime.now(timezone.utc)
@@ -177,6 +168,10 @@ def build(seed, output, claw=None, buyme=None, minimum=100, clock=None):
         with closing(sqlite3.connect(stage)) as db:
             db.execute('PRAGMA foreign_keys=ON')
             initialize(db)
+            curated_count={'cards': 0, 'links': 0}
+            if curated is not None:
+                from src.curation import import_curated_issuers
+                curated_count = import_curated_issuers(db, curated)
             if claw is not None:
                 n_claw=import_clawsavings(db, claw, now)
             if buyme is not None:
@@ -213,8 +208,11 @@ def build(seed, output, claw=None, buyme=None, minimum=100, clock=None):
                'catalogCardMerchantLinks':len(relations),
                'benefitCandidates':len(benefits),
                'freshBenefitCandidates':sum(x['freshness']=='fresh' for x in benefits),
-               'buymeAcceptanceCandidates':len(acceptance)},
-            'imports':{'clawsavings':n_claw,'buymeOptional':n_buyme},
+               'buymeAcceptanceCandidates':len(acceptance),
+               'curatedIssuerCards':curated_count['cards'],
+               'curatedIssuerLinks':curated_count['links']},
+            'imports':{'clawsavings':n_claw,'buymeOptional':n_buyme,
+                       'reviewedIssuerFacts':curated_count['cards']},
             'catalogSha256':hashlib.sha256((output/'catalog.db').read_bytes()).hexdigest(),
             'fileSha256':{filename:hashlib.sha256((output/filename).read_bytes()).hexdigest()
                 for filename in ('cards.json','merchants.json','acceptance.json')},
@@ -231,6 +229,7 @@ def main():
     p.add_argument('--out',default='dist/v3')
     p.add_argument('--clawsavings-url')
     p.add_argument('--clawsavings-file')
+    p.add_argument('--curated-file', help='Manually reviewed issuer product facts (no automated scraping)')
     p.add_argument('--buyme-file',help='Optional ONLY if upstream redistribution rights established')
     p.add_argument('--buyme-minimum',type=int,default=100)
     a=p.parse_args()
@@ -238,6 +237,7 @@ def main():
         p.error('Select only one ClawSavings input')
     claw = read_remote_json(a.clawsavings_url) if a.clawsavings_url else json.loads(Path(a.clawsavings_file).read_text(encoding='utf8')) if a.clawsavings_file else None
     buyme = json.loads(Path(a.buyme_file).read_text(encoding='utf8')) if a.buyme_file else None
-    print(json.dumps(build(a.seed,a.out,claw,buyme,a.buyme_minimum),ensure_ascii=False,indent=2))
+    curated = json.loads(Path(a.curated_file).read_text(encoding='utf8')) if a.curated_file else None
+    print(json.dumps(build(a.seed,a.out,claw,buyme,a.buyme_minimum,curated=curated),ensure_ascii=False,indent=2))
 
 if __name__=='__main__': main()

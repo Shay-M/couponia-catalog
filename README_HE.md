@@ -1,5 +1,7 @@
 <div dir="rtl">
 
+**עדכון 21.11.2026 — v3.2:** נוספו 6 סוגי תווים ו־28 שיוכים ממדגם בדיקה של שני מוצרי ישראכרט; אין שינוי בפורמט Android. ראו [הוראות עדכון v3.2](docs/UPDATE_v32_HE.md).
+
 **עדכון נובמבר 2026 — v3.1:** התווסף מנגנון פרסום יציב שנמנע מעדכונים חוזרים כשאין שינוי, ומפריד גרסת רשימות היישום מגרסת הטבות לא מאומתות. ראו [הוראות עדכון v3.1](docs/UPDATE_v31_HE.md).
 
 </div>
@@ -12,9 +14,9 @@
 
 - `seed/catalog-v2.db` — 99 כרטיסים, 409 עסקים, 504 קשרים; רשימה חלקית שתוקפה תלוי בתאריך ומקור כל קשר.
 - `src/build.py` — מחולל SQLite v3 ותוצרי JSON ליישום Android.
-- `.github/workflows/publish-catalog.yml` — בדיקות והפקה שבועית של JSON ו-SQLite, פרסום דרך GitHub Pages.
+- `.github/workflows/publish-catalog.yml` — בדיקות והפקה יומית של JSON ו-SQLite, פרסום דרך GitHub Pages.
 - `tests/` — ארבע בדיקות עם נתונים סינתטיים לבחינת שמירת בסיס הנתונים, סינון מידע ישן והגנה ממיפוי שגוי.
-- `dist/v3/` — תוצר מקומי התחלתי, **ללא יבוא רשומות חיצוניות מהאינטרנט**, שכן לא הייתה רשת זמינה בזמן יצירת ZIP זה.
+- `dist/v3/` — תוצר **שנבנה ב־GitHub Actions**; אין צורך להעלות ידנית קבצים מיושנים מה־ZIP. אפשר לבנות Preview מקומי בלי רשת, אך הוא לא יכלול את הטבות ClawSavings החיות.
 
 ## מה בדקנו בפרויקטי GitHub
 
@@ -30,7 +32,7 @@
 
 ```bash
 python -m unittest discover -s tests -v
-python src/build.py --seed seed/catalog-v2.db --out dist/v3
+python src/build.py --seed seed/catalog-v2.db --curated-file config/curated_issuer_facts.json --out dist/v3
 ```
 
 טעינה ישירה של נתוני ClawSavings (נדרש אינטרנט):
