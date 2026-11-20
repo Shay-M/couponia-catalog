@@ -1,0 +1,2047 @@
+[
+  {
+    "id": "m_004d984eef199f3e",
+    "name": "בית דרך חיים - עיסויים בנמל תל אביב",
+    "normalized_name": "בית דרך חיים - עיסויים בנמל תל אביב"
+  },
+  {
+    "id": "m_01310f6d54b319ad",
+    "name": "MON'E תכשיטים",
+    "normalized_name": "mon'e תכשיטים"
+  },
+  {
+    "id": "m_013954f704a9b448",
+    "name": "chen keidar",
+    "normalized_name": "chen keidar"
+  },
+  {
+    "id": "m_01d802816552b260",
+    "name": "Saucony",
+    "normalized_name": "saucony"
+  },
+  {
+    "id": "m_02937eac17244e47",
+    "name": "Intimissimi",
+    "normalized_name": "intimissimi"
+  },
+  {
+    "id": "m_03b2677f8739618e",
+    "name": "Nautica",
+    "normalized_name": "nautica"
+  },
+  {
+    "id": "m_045137b4e7b5c8b5",
+    "name": "SAM EDELMAN",
+    "normalized_name": "sam edelman"
+  },
+  {
+    "id": "m_0479860f150147c2",
+    "name": "סניפים נבחרים ברשת קפה גרג",
+    "normalized_name": "סניפים נבחרים ברשת קפה גרג"
+  },
+  {
+    "id": "m_04bdb7e74732dce5",
+    "name": "אופטיקנה",
+    "normalized_name": "אופטיקנה"
+  },
+  {
+    "id": "m_053722169707579e",
+    "name": "KITAN",
+    "normalized_name": "kitan"
+  },
+  {
+    "id": "m_057f43f9e38ac029",
+    "name": "ארקיע",
+    "normalized_name": "ארקיע"
+  },
+  {
+    "id": "m_0625d19dafc9edbc",
+    "name": "Timberland",
+    "normalized_name": "timberland"
+  },
+  {
+    "id": "m_06d9950a98fcdefe",
+    "name": "NEW ERA",
+    "normalized_name": "new era"
+  },
+  {
+    "id": "m_07d878eecfac36c1",
+    "name": "Neta Efrati",
+    "normalized_name": "neta efrati"
+  },
+  {
+    "id": "m_07f51a4b46b032b1",
+    "name": "מילה ספא מלון נפטון/לאונרדו פלאזה אילת",
+    "normalized_name": "מילה ספא מלון נפטון/לאונרדו פלאזה אילת"
+  },
+  {
+    "id": "m_088847787e4501c7",
+    "name": "Foot Locker",
+    "normalized_name": "foot locker"
+  },
+  {
+    "id": "m_08accb0767a267b5",
+    "name": "קמפאי & CHI CHI",
+    "normalized_name": "קמפאי & chi chi"
+  },
+  {
+    "id": "m_08bb42a30ca57f34",
+    "name": "adidas",
+    "normalized_name": "adidas"
+  },
+  {
+    "id": "m_08bbf0382f64752c",
+    "name": "גאטוס (כשר)",
+    "normalized_name": "גאטוס (כשר)"
+  },
+  {
+    "id": "m_09acb997fc253b82",
+    "name": "ווק אווי סניף פתח תקווה",
+    "normalized_name": "ווק אווי סניף פתח תקווה"
+  },
+  {
+    "id": "m_09b16b2c6352697c",
+    "name": "נעלי SAND",
+    "normalized_name": "נעלי sand"
+  },
+  {
+    "id": "m_0a8c7502f722f678",
+    "name": "Roomi",
+    "normalized_name": "roomi"
+  },
+  {
+    "id": "m_0c0d080c9af14fb8",
+    "name": "לחם ארז סניף קרית ביאליק",
+    "normalized_name": "לחם ארז סניף קרית ביאליק"
+  },
+  {
+    "id": "m_0c997d0d41da575a",
+    "name": "BAYTON",
+    "normalized_name": "bayton"
+  },
+  {
+    "id": "m_0ca5c608acd546f6",
+    "name": "Algo Dulce (כשר למהדרין)",
+    "normalized_name": "algo dulce (כשר למהדרין)"
+  },
+  {
+    "id": "m_0d3c12fca8048bf0",
+    "name": "עלמה- אמבטיות קרח",
+    "normalized_name": "עלמה- אמבטיות קרח"
+  },
+  {
+    "id": "m_0e2b2002225c163a",
+    "name": "רשת שר המשקאות",
+    "normalized_name": "רשת שר המשקאות"
+  },
+  {
+    "id": "m_0fa36f7632a1515b",
+    "name": "יקב בהט",
+    "normalized_name": "יקב בהט"
+  },
+  {
+    "id": "m_11322becff126aab",
+    "name": "THE NORTH FACE",
+    "normalized_name": "the north face"
+  },
+  {
+    "id": "m_1133b5e2dda3497e",
+    "name": "רשת הולמס פלייס ספא",
+    "normalized_name": "רשת הולמס פלייס ספא"
+  },
+  {
+    "id": "m_12e062e07fc8f946",
+    "name": "MUZA cocktails",
+    "normalized_name": "muza cocktails"
+  },
+  {
+    "id": "m_133a490f508ad349",
+    "name": "G-CONCEPT",
+    "normalized_name": "g-concept"
+  },
+  {
+    "id": "m_14b90fd4ac830132",
+    "name": "Vintage Original",
+    "normalized_name": "vintage original"
+  },
+  {
+    "id": "m_1508b697895abf03",
+    "name": "LEE",
+    "normalized_name": "lee"
+  },
+  {
+    "id": "m_15729ee54e0feabd",
+    "name": "Steve Madden",
+    "normalized_name": "steve madden"
+  },
+  {
+    "id": "m_15cb048d8471da87",
+    "name": "Holmes Place",
+    "normalized_name": "holmes place"
+  },
+  {
+    "id": "m_15d319174dc44c5c",
+    "name": "ITAY BRANDS",
+    "normalized_name": "itay brands"
+  },
+  {
+    "id": "m_15d465949161536f",
+    "name": "DREAM SPORT",
+    "normalized_name": "dream sport"
+  },
+  {
+    "id": "m_168aab19c6a81b47",
+    "name": "GAL GONEN",
+    "normalized_name": "gal gonen"
+  },
+  {
+    "id": "m_16ec9e273c66753b",
+    "name": "VANS",
+    "normalized_name": "vans"
+  },
+  {
+    "id": "m_17b49704b9f33a88",
+    "name": "רשת למטייל",
+    "normalized_name": "רשת למטייל"
+  },
+  {
+    "id": "m_19481d629d2d861b",
+    "name": "Erborian",
+    "normalized_name": "erborian"
+  },
+  {
+    "id": "m_1a27d12718d3dc32",
+    "name": "CANDLE CLUB",
+    "normalized_name": "candle club"
+  },
+  {
+    "id": "m_1a46e6a68c37e8f9",
+    "name": "Xray",
+    "normalized_name": "xray"
+  },
+  {
+    "id": "m_1a490dc3067abd28",
+    "name": "האתר הסודי לשמלות מסתובבות",
+    "normalized_name": "האתר הסודי לשמלות מסתובבות"
+  },
+  {
+    "id": "m_1a8051e65019cccf",
+    "name": "ALAYA POLEG",
+    "normalized_name": "alaya poleg"
+  },
+  {
+    "id": "m_1bb3a13d8a035598",
+    "name": "ווק אין",
+    "normalized_name": "ווק אין"
+  },
+  {
+    "id": "m_1bff9d4da6344c39",
+    "name": "BIMBA Y LOLA",
+    "normalized_name": "bimba y lola"
+  },
+  {
+    "id": "m_1c35504f9724353e",
+    "name": "INTIMA",
+    "normalized_name": "intima"
+  },
+  {
+    "id": "m_1ca9c170fcd9cb50",
+    "name": "Bina & Bino",
+    "normalized_name": "bina & bino"
+  },
+  {
+    "id": "m_1d71f20d1cc9d164",
+    "name": "Studio happy",
+    "normalized_name": "studio happy"
+  },
+  {
+    "id": "m_1e103fdeb16ccc3e",
+    "name": "Columbia",
+    "normalized_name": "columbia"
+  },
+  {
+    "id": "m_1e1bd98fe8fdb0ee",
+    "name": "MEY JEWELRY",
+    "normalized_name": "mey jewelry"
+  },
+  {
+    "id": "m_1e4c7687cd8b1a8f",
+    "name": "One Project",
+    "normalized_name": "one project"
+  },
+  {
+    "id": "m_1ed01bbc8b74a04c",
+    "name": "שופרא",
+    "normalized_name": "שופרא"
+  },
+  {
+    "id": "m_1f0c5f30777d23c3",
+    "name": "ספא קלרינס",
+    "normalized_name": "ספא קלרינס"
+  },
+  {
+    "id": "m_1ffb73ba8e4c722d",
+    "name": "DKNY",
+    "normalized_name": "dkny"
+  },
+  {
+    "id": "m_218f6907ab93f482",
+    "name": "שגב",
+    "normalized_name": "שגב"
+  },
+  {
+    "id": "m_21ab8c75f010a27d",
+    "name": "רשת מחנה אסאדה",
+    "normalized_name": "רשת מחנה אסאדה"
+  },
+  {
+    "id": "m_22bc7d1321c12c58",
+    "name": "Carter's/Oshkosh",
+    "normalized_name": "carter's/oshkosh"
+  },
+  {
+    "id": "m_235747d6a9bfcd7e",
+    "name": "Dixie restaurant",
+    "normalized_name": "dixie restaurant"
+  },
+  {
+    "id": "m_2468242baa093bcc",
+    "name": "מנטרה ספא",
+    "normalized_name": "מנטרה ספא"
+  },
+  {
+    "id": "m_26006b85065cf9c3",
+    "name": "HOTCROWN Jewelry",
+    "normalized_name": "hotcrown jewelry"
+  },
+  {
+    "id": "m_26d7bae7bca1fe7a",
+    "name": "מתחם אירוח אתנחתא בירדן אירוח כפרי משמר הירדן",
+    "normalized_name": "מתחם אירוח אתנחתא בירדן אירוח כפרי משמר הירדן"
+  },
+  {
+    "id": "m_26e6896ae9b691f5",
+    "name": "האווזים (כשרה) ראשון לציון",
+    "normalized_name": "האווזים (כשרה) ראשון לציון"
+  },
+  {
+    "id": "m_2715c0e110c78f14",
+    "name": "RONEN CHEN",
+    "normalized_name": "ronen chen"
+  },
+  {
+    "id": "m_27a0f645e20497a6",
+    "name": "Brooks",
+    "normalized_name": "brooks"
+  },
+  {
+    "id": "m_28e5d11c6cfe9e6e",
+    "name": "American Eagle",
+    "normalized_name": "american eagle"
+  },
+  {
+    "id": "m_295ecf951d2e6e02",
+    "name": "הדרא",
+    "normalized_name": "הדרא"
+  },
+  {
+    "id": "m_296a5b03b72054e2",
+    "name": "Dé Rococo",
+    "normalized_name": "dé rococo"
+  },
+  {
+    "id": "m_29e37c6d5889aa95",
+    "name": "Miss Nori",
+    "normalized_name": "miss nori"
+  },
+  {
+    "id": "m_2a1ffdc9dca2856a",
+    "name": "HOLYLAND CIVILIANS",
+    "normalized_name": "holyland civilians"
+  },
+  {
+    "id": "m_2a65c8cbcd4185ed",
+    "name": "ALLSAINTS",
+    "normalized_name": "allsaints"
+  },
+  {
+    "id": "m_2d651bd0c11e0789",
+    "name": "Legenda",
+    "normalized_name": "legenda"
+  },
+  {
+    "id": "m_2dbf8d74b350da9d",
+    "name": "ספייסז - רשת חנויות קולינאריות",
+    "normalized_name": "ספייסז - רשת חנויות קולינאריות"
+  },
+  {
+    "id": "m_2e736d4ce11c0141",
+    "name": "BARBIZ",
+    "normalized_name": "barbiz"
+  },
+  {
+    "id": "m_2f750b4e7ed138a9",
+    "name": "מסעדת קפטן הוק",
+    "normalized_name": "מסעדת קפטן הוק"
+  },
+  {
+    "id": "m_311fe3feed16b9cd",
+    "name": "YOLO",
+    "normalized_name": "yolo"
+  },
+  {
+    "id": "m_318678825324247b",
+    "name": "outline",
+    "normalized_name": "outline"
+  },
+  {
+    "id": "m_3215a53a67097895",
+    "name": "JanSport",
+    "normalized_name": "jansport"
+  },
+  {
+    "id": "m_327c0a3b3f536c0a",
+    "name": "organic zone",
+    "normalized_name": "organic zone"
+  },
+  {
+    "id": "m_333d89aa43c648a2",
+    "name": "שילב",
+    "normalized_name": "שילב"
+  },
+  {
+    "id": "m_33ccba0874fe58b4",
+    "name": "inhale exhale",
+    "normalized_name": "inhale exhale"
+  },
+  {
+    "id": "m_348a18951b86c8db",
+    "name": "The view - מסעדת שף (כשר)",
+    "normalized_name": "the view - מסעדת שף (כשר)"
+  },
+  {
+    "id": "m_348a629f5ceed032",
+    "name": "MAC",
+    "normalized_name": "mac"
+  },
+  {
+    "id": "m_35308aec7fa70fb7",
+    "name": "ALTRA",
+    "normalized_name": "altra"
+  },
+  {
+    "id": "m_35a8fe627ca2b674",
+    "name": "השוקת בר",
+    "normalized_name": "השוקת בר"
+  },
+  {
+    "id": "m_35b5f3cc6fdbaa73",
+    "name": "Quiksilver",
+    "normalized_name": "quiksilver"
+  },
+  {
+    "id": "m_35fafebfe4fc438b",
+    "name": "RUBY BAY",
+    "normalized_name": "ruby bay"
+  },
+  {
+    "id": "m_3640ebe6de0773cc",
+    "name": "אדון קרלוס",
+    "normalized_name": "אדון קרלוס"
+  },
+  {
+    "id": "m_36584555459c0351",
+    "name": "קרביץ",
+    "normalized_name": "קרביץ"
+  },
+  {
+    "id": "m_36815e3449fbbb63",
+    "name": "ellesse",
+    "normalized_name": "ellesse"
+  },
+  {
+    "id": "m_39d254bb15a2f6c3",
+    "name": "Stylish",
+    "normalized_name": "stylish"
+  },
+  {
+    "id": "m_3a7d979975613ddf",
+    "name": "GADE",
+    "normalized_name": "gade"
+  },
+  {
+    "id": "m_3b451fc0a301cc6e",
+    "name": "Ma Jolie",
+    "normalized_name": "ma jolie"
+  },
+  {
+    "id": "m_3b7b4178fa5100bd",
+    "name": "מסעדת דיאנא- אבו אלדוח'ול",
+    "normalized_name": "מסעדת דיאנא- אבו אלדוח'ול"
+  },
+  {
+    "id": "m_3baa901366eb2d25",
+    "name": "Upper Market",
+    "normalized_name": "upper market"
+  },
+  {
+    "id": "m_3cf222b0e5d41064",
+    "name": "Mekimi",
+    "normalized_name": "mekimi"
+  },
+  {
+    "id": "m_3d5d3c88322596ad",
+    "name": "יקב טוליפ",
+    "normalized_name": "יקב טוליפ"
+  },
+  {
+    "id": "m_3d998ddcd8e0f9cf",
+    "name": "Redefine Hair",
+    "normalized_name": "redefine hair"
+  },
+  {
+    "id": "m_3e73ed10c79c7081",
+    "name": "Claro restaurant",
+    "normalized_name": "claro restaurant"
+  },
+  {
+    "id": "m_3ec4118dc0dc3f59",
+    "name": "Ceramora- כלי קרמיקה",
+    "normalized_name": "ceramora- כלי קרמיקה"
+  },
+  {
+    "id": "m_3f3dd30d52dfef2f",
+    "name": "malaya kids",
+    "normalized_name": "malaya kids"
+  },
+  {
+    "id": "m_3f875dc5ab67a79b",
+    "name": "SABON",
+    "normalized_name": "sabon"
+  },
+  {
+    "id": "m_3faef93426f6f3f4",
+    "name": "Napolion",
+    "normalized_name": "napolion"
+  },
+  {
+    "id": "m_3fec83f686751899",
+    "name": "PETEAT",
+    "normalized_name": "peteat"
+  },
+  {
+    "id": "m_403f45a096665d25",
+    "name": "Billabong",
+    "normalized_name": "billabong"
+  },
+  {
+    "id": "m_40ce6600ff86b67b",
+    "name": "Flying Tiger",
+    "normalized_name": "flying tiger"
+  },
+  {
+    "id": "m_40ee05d35c47c7a9",
+    "name": "DOMO (שני סניפים)",
+    "normalized_name": "domo (שני סניפים)"
+  },
+  {
+    "id": "m_41133dde2f335a08",
+    "name": "Just Believe Jewelry",
+    "normalized_name": "just believe jewelry"
+  },
+  {
+    "id": "m_416a90af68678596",
+    "name": "LONGCHAMP",
+    "normalized_name": "longchamp"
+  },
+  {
+    "id": "m_419573d7148745fa",
+    "name": "MIRZA",
+    "normalized_name": "mirza"
+  },
+  {
+    "id": "m_4254f58dcdb831b7",
+    "name": "צ'אקולי",
+    "normalized_name": "צ'אקולי"
+  },
+  {
+    "id": "m_428e8b6b00825a19",
+    "name": "NINE WEST",
+    "normalized_name": "nine west"
+  },
+  {
+    "id": "m_4381bff1b0f64ea2",
+    "name": "The Children's Place",
+    "normalized_name": "the children's place"
+  },
+  {
+    "id": "m_4432eda2a2112079",
+    "name": "מסעדת נמסטה אשדוד (כשר)",
+    "normalized_name": "מסעדת נמסטה אשדוד (כשר)"
+  },
+  {
+    "id": "m_4574a1cd97132627",
+    "name": "FINE RITUALS",
+    "normalized_name": "fine rituals"
+  },
+  {
+    "id": "m_460f1ba4876e0ee1",
+    "name": "ספא מאייר האוס",
+    "normalized_name": "ספא מאייר האוס"
+  },
+  {
+    "id": "m_4616b3d536d086fe",
+    "name": "אהבה קטנה- מתנות מעוצבות",
+    "normalized_name": "אהבה קטנה- מתנות מעוצבות"
+  },
+  {
+    "id": "m_4626ea9f0bc02a97",
+    "name": "Lee Cooper",
+    "normalized_name": "lee cooper"
+  },
+  {
+    "id": "m_462e078c513e1ada",
+    "name": "רשת נאוטיקה",
+    "normalized_name": "רשת נאוטיקה"
+  },
+  {
+    "id": "m_4650b1c4abfec84e",
+    "name": "נעלי נימרוד",
+    "normalized_name": "נעלי נימרוד"
+  },
+  {
+    "id": "m_478d3cdc1ceaae6b",
+    "name": "SEQUOIA",
+    "normalized_name": "sequoia"
+  },
+  {
+    "id": "m_48ec6b3dcabf4515",
+    "name": "BOGART",
+    "normalized_name": "bogart"
+  },
+  {
+    "id": "m_4a14c222eb98db4a",
+    "name": "האווזים נמל תל אביב",
+    "normalized_name": "האווזים נמל תל אביב"
+  },
+  {
+    "id": "m_4a97fd6a81dd7da8",
+    "name": "INTER JEANS BY NYOU",
+    "normalized_name": "inter jeans by nyou"
+  },
+  {
+    "id": "m_4b141b9bb8a41864",
+    "name": "רשת JUMP & ONOT",
+    "normalized_name": "רשת jump & onot"
+  },
+  {
+    "id": "m_4bf2fb5b7bc4b31b",
+    "name": "Dynamica",
+    "normalized_name": "dynamica"
+  },
+  {
+    "id": "m_4c07ee02728efa26",
+    "name": "Boardriders",
+    "normalized_name": "boardriders"
+  },
+  {
+    "id": "m_4dbab72811131ee0",
+    "name": "מטווח אתגרי איירסופט פוינט אילת",
+    "normalized_name": "מטווח אתגרי איירסופט פוינט אילת"
+  },
+  {
+    "id": "m_4e9e50b9a0a9a7d3",
+    "name": "POPSI",
+    "normalized_name": "popsi"
+  },
+  {
+    "id": "m_4ee5d53281ae3f61",
+    "name": "מגה ספורט",
+    "normalized_name": "מגה ספורט"
+  },
+  {
+    "id": "m_5115c864f6fbe1b5",
+    "name": "JUV activewear",
+    "normalized_name": "juv activewear"
+  },
+  {
+    "id": "m_51271ae02be21ef6",
+    "name": "רנואר",
+    "normalized_name": "רנואר"
+  },
+  {
+    "id": "m_5289f9a5ca053a22",
+    "name": "SOHO",
+    "normalized_name": "soho"
+  },
+  {
+    "id": "m_535e566e8813b30c",
+    "name": "המשביר לצרכן",
+    "normalized_name": "המשביר לצרכן"
+  },
+  {
+    "id": "m_5391116223466398",
+    "name": "COTTON CLUB",
+    "normalized_name": "cotton club"
+  },
+  {
+    "id": "m_53d3d43e347128b2",
+    "name": "COCONUT LOVE",
+    "normalized_name": "coconut love"
+  },
+  {
+    "id": "m_545b187bd4a4916a",
+    "name": "Just-Meat",
+    "normalized_name": "just-meat"
+  },
+  {
+    "id": "m_57149a0252ee122a",
+    "name": "בית קפה רנה ראש פינה",
+    "normalized_name": "בית קפה רנה ראש פינה"
+  },
+  {
+    "id": "m_573103e7aa06b3cb",
+    "name": "Trek Market",
+    "normalized_name": "trek market"
+  },
+  {
+    "id": "m_57e2abc929fd2d65",
+    "name": "Sip Wine",
+    "normalized_name": "sip wine"
+  },
+  {
+    "id": "m_59c615c78de896d1",
+    "name": "Babystar",
+    "normalized_name": "babystar"
+  },
+  {
+    "id": "m_5a4678b1389b99a2",
+    "name": "Skechers",
+    "normalized_name": "skechers"
+  },
+  {
+    "id": "m_5ab7ee1f8921b43c",
+    "name": "GOVANA Fashion",
+    "normalized_name": "govana fashion"
+  },
+  {
+    "id": "m_5b6b36a071898900",
+    "name": "O Lingerie",
+    "normalized_name": "o lingerie"
+  },
+  {
+    "id": "m_5b88ebbbdca3c6ce",
+    "name": "Giraffe restaurants",
+    "normalized_name": "giraffe restaurants"
+  },
+  {
+    "id": "m_5c14bf540dcf7539",
+    "name": "המבורגר יקב בהט",
+    "normalized_name": "המבורגר יקב בהט"
+  },
+  {
+    "id": "m_5c669a678713aaba",
+    "name": "סינטה (כשר)",
+    "normalized_name": "סינטה (כשר)"
+  },
+  {
+    "id": "m_5dd73e7ec8ba2603",
+    "name": "טרקלין חשמל",
+    "normalized_name": "טרקלין חשמל"
+  },
+  {
+    "id": "m_5e30aff94355bf18",
+    "name": "מקסיקנה",
+    "normalized_name": "מקסיקנה"
+  },
+  {
+    "id": "m_5e41133f00a54dde",
+    "name": "Carrefour",
+    "normalized_name": "carrefour"
+  },
+  {
+    "id": "m_5eabf278f085047f",
+    "name": "Jrpole",
+    "normalized_name": "jrpole"
+  },
+  {
+    "id": "m_5f5f9bac70bac200",
+    "name": "LA VACA LOCA",
+    "normalized_name": "la vaca loca"
+  },
+  {
+    "id": "m_5f8e3c7eeeae865f",
+    "name": "Segev restaurants",
+    "normalized_name": "segev restaurants"
+  },
+  {
+    "id": "m_60790ba7300e20de",
+    "name": "Happy Hempy",
+    "normalized_name": "happy hempy"
+  },
+  {
+    "id": "m_625978f7e9fc4572",
+    "name": "לחם בשר סניף פתח תקווה",
+    "normalized_name": "לחם בשר סניף פתח תקווה"
+  },
+  {
+    "id": "m_625fe74cad4600b5",
+    "name": "GOLF",
+    "normalized_name": "golf"
+  },
+  {
+    "id": "m_627a22eedb6c73c5",
+    "name": "מסעדות בנדיקט",
+    "normalized_name": "מסעדות בנדיקט"
+  },
+  {
+    "id": "m_62cb4a5b6b3cb241",
+    "name": "ספא גולף קיסריה",
+    "normalized_name": "ספא גולף קיסריה"
+  },
+  {
+    "id": "m_6389005619e32de3",
+    "name": "דיימונד טיים- שעונים ותכשיטים",
+    "normalized_name": "דיימונד טיים- שעונים ותכשיטים"
+  },
+  {
+    "id": "m_64335bf50964d2f1",
+    "name": "דנה אשכנזי",
+    "normalized_name": "דנה אשכנזי"
+  },
+  {
+    "id": "m_655c504dca42066d",
+    "name": "S-wear",
+    "normalized_name": "s-wear"
+  },
+  {
+    "id": "m_6815f3c300383519",
+    "name": "MANGO",
+    "normalized_name": "mango"
+  },
+  {
+    "id": "m_6866496081c419a2",
+    "name": "אחוזת ספא",
+    "normalized_name": "אחוזת ספא"
+  },
+  {
+    "id": "m_6955784443322d44",
+    "name": "מרינה ביי הרצליה",
+    "normalized_name": "מרינה ביי הרצליה"
+  },
+  {
+    "id": "m_69c554e5ed04e735",
+    "name": "נאם",
+    "normalized_name": "נאם"
+  },
+  {
+    "id": "m_69eb9fbd85fe8592",
+    "name": "גלי",
+    "normalized_name": "גלי"
+  },
+  {
+    "id": "m_6a6b46521e000c10",
+    "name": "TULIP",
+    "normalized_name": "tulip"
+  },
+  {
+    "id": "m_6a6ce11b47f5175e",
+    "name": "נגיסה סושי בר סניף רמת גן (בד\"ץ)",
+    "normalized_name": "נגיסה סושי בר סניף רמת גן (בד\"ץ)"
+  },
+  {
+    "id": "m_6a8010f35f51d746",
+    "name": "מלונות בראון מבית ישראל קנדה",
+    "normalized_name": "מלונות בראון מבית ישראל קנדה"
+  },
+  {
+    "id": "m_6abdce86da7b38f4",
+    "name": "TIKI- מותג אופנה לאנשים טובים",
+    "normalized_name": "tiki- מותג אופנה לאנשים טובים"
+  },
+  {
+    "id": "m_6ac78ad43dd210b9",
+    "name": "דוניה רוסה",
+    "normalized_name": "דוניה רוסה"
+  },
+  {
+    "id": "m_6aef8aeed8f47215",
+    "name": "R.D.T COSMETICS",
+    "normalized_name": "r.d.t cosmetics"
+  },
+  {
+    "id": "m_6b816010d57a0a3a",
+    "name": "רשת סבון",
+    "normalized_name": "רשת סבון"
+  },
+  {
+    "id": "m_6ba35458a8bae9ab",
+    "name": "GOLF KIDS&BABY",
+    "normalized_name": "golf kids&baby"
+  },
+  {
+    "id": "m_6bcaaddae2aac752",
+    "name": "She-Ra Jewelry",
+    "normalized_name": "she-ra jewelry"
+  },
+  {
+    "id": "m_6c77f512545ca704",
+    "name": "כפר הנופש ביאנקיני",
+    "normalized_name": "כפר הנופש ביאנקיני"
+  },
+  {
+    "id": "m_6d621ffc51d2409f",
+    "name": "Crazy Line",
+    "normalized_name": "crazy line"
+  },
+  {
+    "id": "m_6e34a9a400cc647e",
+    "name": "פמילי פאשן",
+    "normalized_name": "פמילי פאשן"
+  },
+  {
+    "id": "m_6fb2b7133ef8a27c",
+    "name": "KAHIKO Swimwear",
+    "normalized_name": "kahiko swimwear"
+  },
+  {
+    "id": "m_71146148bb7c9478",
+    "name": "GOLBARY",
+    "normalized_name": "golbary"
+  },
+  {
+    "id": "m_723ae794a969fb03",
+    "name": "פלמינגו ספא",
+    "normalized_name": "פלמינגו ספא"
+  },
+  {
+    "id": "m_736b833cf0212ba4",
+    "name": "בית תאילנדי",
+    "normalized_name": "בית תאילנדי"
+  },
+  {
+    "id": "m_762343bb5bdc0944",
+    "name": "BLUE Bandana",
+    "normalized_name": "blue bandana"
+  },
+  {
+    "id": "m_76d66ee2dca9bb6e",
+    "name": "Sinta Bar",
+    "normalized_name": "sinta bar"
+  },
+  {
+    "id": "m_7722aba40e28d98f",
+    "name": "ALDO",
+    "normalized_name": "aldo"
+  },
+  {
+    "id": "m_776cb326ab0cd5f0",
+    "name": "FOX",
+    "normalized_name": "fox"
+  },
+  {
+    "id": "m_78c3489e2ae76933",
+    "name": "רשת קפה קפה",
+    "normalized_name": "רשת קפה קפה"
+  },
+  {
+    "id": "m_798c1c92c773a2ea",
+    "name": "PARAPLU",
+    "normalized_name": "paraplu"
+  },
+  {
+    "id": "m_799fa2ba9297dc44",
+    "name": "Yanga",
+    "normalized_name": "yanga"
+  },
+  {
+    "id": "m_7a58d718d17d65cb",
+    "name": "TERMINAL X",
+    "normalized_name": "terminal x"
+  },
+  {
+    "id": "m_7a6fefc111dca06b",
+    "name": "לבנדר ירוק",
+    "normalized_name": "לבנדר ירוק"
+  },
+  {
+    "id": "m_7be8be994d3b8b5c",
+    "name": "עצמל'ה",
+    "normalized_name": "עצמל'ה"
+  },
+  {
+    "id": "m_7c578aa930bec06e",
+    "name": "Jungle pets",
+    "normalized_name": "jungle pets"
+  },
+  {
+    "id": "m_7ddd6340859c0008",
+    "name": "פתאל",
+    "normalized_name": "פתאל"
+  },
+  {
+    "id": "m_7df7e76a14366ddb",
+    "name": "TOUS",
+    "normalized_name": "tous"
+  },
+  {
+    "id": "m_7e0f7d2a57623aad",
+    "name": "sweetime",
+    "normalized_name": "sweetime"
+  },
+  {
+    "id": "m_7e1bdddcc8c44c91",
+    "name": "רשת באשר",
+    "normalized_name": "רשת באשר"
+  },
+  {
+    "id": "m_7efa92a5806bee2f",
+    "name": "בועז שטיין",
+    "normalized_name": "בועז שטיין"
+  },
+  {
+    "id": "m_7f2365a25ee2f5c4",
+    "name": "קימל בגלבוע",
+    "normalized_name": "קימל בגלבוע"
+  },
+  {
+    "id": "m_7f472b2f2983102a",
+    "name": "Outdoor",
+    "normalized_name": "outdoor"
+  },
+  {
+    "id": "m_7f6b16f4191e36df",
+    "name": "קולומביה, שבילים ואווטסיידרס",
+    "normalized_name": "קולומביה, שבילים ואווטסיידרס"
+  },
+  {
+    "id": "m_7fb36ec168941b80",
+    "name": "שילה הקדומה",
+    "normalized_name": "שילה הקדומה"
+  },
+  {
+    "id": "m_7fba528436809299",
+    "name": "טלי רוקני",
+    "normalized_name": "טלי רוקני"
+  },
+  {
+    "id": "m_8007cd10be72af7b",
+    "name": "סקולינרי - מתחם סדנאות הבישול בקיבוץ יגור",
+    "normalized_name": "סקולינרי - מתחם סדנאות הבישול בקיבוץ יגור"
+  },
+  {
+    "id": "m_802789f6c4b16158",
+    "name": "NORI KIDS",
+    "normalized_name": "nori kids"
+  },
+  {
+    "id": "m_816aac41740cf617",
+    "name": "ג'ויה רמת החייל",
+    "normalized_name": "ג'ויה רמת החייל"
+  },
+  {
+    "id": "m_8402d16050650a9c",
+    "name": "Pomo restaurant",
+    "normalized_name": "pomo restaurant"
+  },
+  {
+    "id": "m_844b9897aac700b6",
+    "name": "AHAVA",
+    "normalized_name": "ahava"
+  },
+  {
+    "id": "m_848dcde6d268ce0a",
+    "name": "Grinberg Burger",
+    "normalized_name": "grinberg burger"
+  },
+  {
+    "id": "m_84a7f071a6bd0c82",
+    "name": "Be Pharm",
+    "normalized_name": "be pharm"
+  },
+  {
+    "id": "m_84cd19b592f73653",
+    "name": "HELENA- מותג אופנה",
+    "normalized_name": "helena- מותג אופנה"
+  },
+  {
+    "id": "m_857e454c1ac076df",
+    "name": "MUSE מרכז בריאות ויופי הרצליה",
+    "normalized_name": "muse מרכז בריאות ויופי הרצליה"
+  },
+  {
+    "id": "m_875f9128e03d7859",
+    "name": "JEM'S",
+    "normalized_name": "jem's"
+  },
+  {
+    "id": "m_876372fc799dab41",
+    "name": "רשת ARCOSTEEL",
+    "normalized_name": "רשת arcosteel"
+  },
+  {
+    "id": "m_894db0a186a217cc",
+    "name": "AYUCHKA",
+    "normalized_name": "ayuchka"
+  },
+  {
+    "id": "m_89baee4f5c0d0000",
+    "name": "GROOVIM",
+    "normalized_name": "groovim"
+  },
+  {
+    "id": "m_8a0eb9444013e6b6",
+    "name": "רשת Bגוד",
+    "normalized_name": "רשת bגוד"
+  },
+  {
+    "id": "m_8a52891cee8f2f6e",
+    "name": "Dalal",
+    "normalized_name": "dalal"
+  },
+  {
+    "id": "m_8a79d62ca44c2f6f",
+    "name": "Getaway by BUYME",
+    "normalized_name": "getaway by buyme"
+  },
+  {
+    "id": "m_8af9ffd5161dd702",
+    "name": "CHILLBOX",
+    "normalized_name": "chillbox"
+  },
+  {
+    "id": "m_8b37536fa5bbf0b9",
+    "name": "איטלקיה בתחנה",
+    "normalized_name": "איטלקיה בתחנה"
+  },
+  {
+    "id": "m_8b37f9fb601bd3b1",
+    "name": "מכבסת קאל",
+    "normalized_name": "מכבסת קאל"
+  },
+  {
+    "id": "m_8baca7ad96988bfb",
+    "name": "NOFAR MOR",
+    "normalized_name": "nofar mor"
+  },
+  {
+    "id": "m_8c22b4f8e47768d4",
+    "name": "שופרסל",
+    "normalized_name": "שופרסל"
+  },
+  {
+    "id": "m_8c7112f470049586",
+    "name": "Food Appeal",
+    "normalized_name": "food appeal"
+  },
+  {
+    "id": "m_8c991459f984953f",
+    "name": "4Chef",
+    "normalized_name": "4chef"
+  },
+  {
+    "id": "m_8ce6112ea4cbe27b",
+    "name": "BYNETA",
+    "normalized_name": "byneta"
+  },
+  {
+    "id": "m_8d186f888fdd1c69",
+    "name": "SMASH ROOM",
+    "normalized_name": "smash room"
+  },
+  {
+    "id": "m_8d6e6504a97fe8cf",
+    "name": "TYO restaurant",
+    "normalized_name": "tyo restaurant"
+  },
+  {
+    "id": "m_8e0b9d607459e0e6",
+    "name": "קיסר- ריהוט ארגונומי",
+    "normalized_name": "קיסר- ריהוט ארגונומי"
+  },
+  {
+    "id": "m_8f20c5df7a917836",
+    "name": "BONIC",
+    "normalized_name": "bonic"
+  },
+  {
+    "id": "m_905f42316e4e175c",
+    "name": "Nono Mimi restaurant",
+    "normalized_name": "nono mimi restaurant"
+  },
+  {
+    "id": "m_90ab5c33a0691017",
+    "name": "lee cooper kids",
+    "normalized_name": "lee cooper kids"
+  },
+  {
+    "id": "m_917c0a7b054bbbd3",
+    "name": "Aerie",
+    "normalized_name": "aerie"
+  },
+  {
+    "id": "m_92cf1873a5579d0a",
+    "name": "Nautica Home",
+    "normalized_name": "nautica home"
+  },
+  {
+    "id": "m_93be562fee61d45f",
+    "name": "פיצה סטורי",
+    "normalized_name": "פיצה סטורי"
+  },
+  {
+    "id": "m_93c6b09e0fc292a9",
+    "name": "CHRISTINA",
+    "normalized_name": "christina"
+  },
+  {
+    "id": "m_93eb6cf2f8ce90db",
+    "name": "קפה מנדרין קניון עזריאלי חיפה",
+    "normalized_name": "קפה מנדרין קניון עזריאלי חיפה"
+  },
+  {
+    "id": "m_94949f9c6add07d6",
+    "name": "& Other Stories",
+    "normalized_name": "& other stories"
+  },
+  {
+    "id": "m_952d6eee5ba78182",
+    "name": "Mia Inspiration",
+    "normalized_name": "mia inspiration"
+  },
+  {
+    "id": "m_961134421c80e7bf",
+    "name": "Body& Soul ספא אילת",
+    "normalized_name": "body& soul ספא אילת"
+  },
+  {
+    "id": "m_965f1e4b2db83984",
+    "name": "Minus417",
+    "normalized_name": "minus417"
+  },
+  {
+    "id": "m_972a6c511e75b7c4",
+    "name": "Greco restaurants",
+    "normalized_name": "greco restaurants"
+  },
+  {
+    "id": "m_97fb13c2a2ae856c",
+    "name": "Shila restaurant",
+    "normalized_name": "shila restaurant"
+  },
+  {
+    "id": "m_985ac3c80281837e",
+    "name": "אווזי חיפה חוצות המפרץ (כשר)",
+    "normalized_name": "אווזי חיפה חוצות המפרץ (כשר)"
+  },
+  {
+    "id": "m_9899ab83380e884c",
+    "name": "Femina",
+    "normalized_name": "femina"
+  },
+  {
+    "id": "m_9990301447098e45",
+    "name": "JAPAN-JAPAN",
+    "normalized_name": "japan-japan"
+  },
+  {
+    "id": "m_99c08f7795af97db",
+    "name": "ELIT SWIMWEAR",
+    "normalized_name": "elit swimwear"
+  },
+  {
+    "id": "m_9a2b8c87f2948727",
+    "name": "עדה לזורגן",
+    "normalized_name": "עדה לזורגן"
+  },
+  {
+    "id": "m_9a3be5de1b754172",
+    "name": "קפה אוסישקין- קרית מוצקין",
+    "normalized_name": "קפה אוסישקין- קרית מוצקין"
+  },
+  {
+    "id": "m_9ab51b7e79ffad4d",
+    "name": "אוסישקין- שירות עצמי",
+    "normalized_name": "אוסישקין- שירות עצמי"
+  },
+  {
+    "id": "m_9be28bbe03fa7c43",
+    "name": "COS",
+    "normalized_name": "cos"
+  },
+  {
+    "id": "m_9f21c1bf4b3ac2b4",
+    "name": "גל כוכבי - עיסויים וטיפולי גוף",
+    "normalized_name": "גל כוכבי - עיסויים וטיפולי גוף"
+  },
+  {
+    "id": "m_9f3e6bf30432ef07",
+    "name": "almaré",
+    "normalized_name": "almaré"
+  },
+  {
+    "id": "m_9fa295618d300c22",
+    "name": "סולתם",
+    "normalized_name": "סולתם"
+  },
+  {
+    "id": "m_a01b16a50cdb1702",
+    "name": "Biamba",
+    "normalized_name": "biamba"
+  },
+  {
+    "id": "m_a03f93369605d007",
+    "name": "JACK KUBA",
+    "normalized_name": "jack kuba"
+  },
+  {
+    "id": "m_a0ab7903dcc419c2",
+    "name": "מילק אנד האני",
+    "normalized_name": "מילק אנד האני"
+  },
+  {
+    "id": "m_a2aeafe15226a34b",
+    "name": "Show Off",
+    "normalized_name": "show off"
+  },
+  {
+    "id": "m_a30e5d54bfa6a3cb",
+    "name": "קפה גרג רמלה (כשר מהדרין)",
+    "normalized_name": "קפה גרג רמלה (כשר מהדרין)"
+  },
+  {
+    "id": "m_a368ad6c1ec57f21",
+    "name": "HACKETT & GANT",
+    "normalized_name": "hackett & gant"
+  },
+  {
+    "id": "m_a3db0398842cd884",
+    "name": "גלידה פינגווין",
+    "normalized_name": "גלידה פינגווין"
+  },
+  {
+    "id": "m_a5896ad81a2e16e2",
+    "name": "מקדונלדס",
+    "normalized_name": "מקדונלדס"
+  },
+  {
+    "id": "m_a5a4e5ffafdf09a9",
+    "name": "Danielle Gerber",
+    "normalized_name": "danielle gerber"
+  },
+  {
+    "id": "m_a64dc0d9bfaf02c4",
+    "name": "רשת לנדוור",
+    "normalized_name": "רשת לנדוור"
+  },
+  {
+    "id": "m_a6a4d8a520b6287d",
+    "name": "קפה גרג הקניון הגדול פ\"ת (כשר מהדרין)",
+    "normalized_name": "קפה גרג הקניון הגדול פ\"ת (כשר מהדרין)"
+  },
+  {
+    "id": "m_a765867e5dc0c5de",
+    "name": "Goshen restaurant",
+    "normalized_name": "goshen restaurant"
+  },
+  {
+    "id": "m_a77a1494f82497c6",
+    "name": "Darlain",
+    "normalized_name": "darlain"
+  },
+  {
+    "id": "m_a7a7a530bfaec49e",
+    "name": "גורילה בר בת ים (כשר)",
+    "normalized_name": "גורילה בר בת ים (כשר)"
+  },
+  {
+    "id": "m_a8a2ef67b867b543",
+    "name": "I Cell",
+    "normalized_name": "i cell"
+  },
+  {
+    "id": "m_a8adf040d5380e11",
+    "name": "VALHALLA",
+    "normalized_name": "valhalla"
+  },
+  {
+    "id": "m_a92ce2bcae11c808",
+    "name": "BRANT",
+    "normalized_name": "brant"
+  },
+  {
+    "id": "m_a99a5d52437a0d4a",
+    "name": "קאלה",
+    "normalized_name": "קאלה"
+  },
+  {
+    "id": "m_a9c09dfe6de62dbf",
+    "name": "FOX HOME",
+    "normalized_name": "fox home"
+  },
+  {
+    "id": "m_a9f009df5d2eaca4",
+    "name": "רשת מסעדות Frame",
+    "normalized_name": "רשת מסעדות frame"
+  },
+  {
+    "id": "m_aa69fdbdb1e55d12",
+    "name": "WeShoes",
+    "normalized_name": "weshoes"
+  },
+  {
+    "id": "m_aacae35165f9df57",
+    "name": "לאו ספא",
+    "normalized_name": "לאו ספא"
+  },
+  {
+    "id": "m_aaf1d771ec9b84c4",
+    "name": "המלביה",
+    "normalized_name": "המלביה"
+  },
+  {
+    "id": "m_ab3459c88f2b6b45",
+    "name": "GOLF&CO",
+    "normalized_name": "golf&co"
+  },
+  {
+    "id": "m_ac203c9843b5bd8c",
+    "name": "REPLAY",
+    "normalized_name": "replay"
+  },
+  {
+    "id": "m_ac6e8bcc1b6f6a37",
+    "name": "IL MAKIAGE",
+    "normalized_name": "il makiage"
+  },
+  {
+    "id": "m_acca0620ea3a7269",
+    "name": "רשת קולנוע לב",
+    "normalized_name": "רשת קולנוע לב"
+  },
+  {
+    "id": "m_ad3071830a087331",
+    "name": "ZO TLV",
+    "normalized_name": "zo tlv"
+  },
+  {
+    "id": "m_add01cc8a6ea7d31",
+    "name": "פיצה עגבניה",
+    "normalized_name": "פיצה עגבניה"
+  },
+  {
+    "id": "m_add04d457b5da647",
+    "name": "Blis Top",
+    "normalized_name": "blis top"
+  },
+  {
+    "id": "m_ae9271234d6883ca",
+    "name": "Carter's",
+    "normalized_name": "carter's"
+  },
+  {
+    "id": "m_afcf8bc077e68eb9",
+    "name": "417",
+    "normalized_name": "417"
+  },
+  {
+    "id": "m_b0a0b46e2be37819",
+    "name": "ÉVE PROMETICS",
+    "normalized_name": "éve prometics"
+  },
+  {
+    "id": "m_b0ed02898c6da0cc",
+    "name": "LILY ROSE",
+    "normalized_name": "lily rose"
+  },
+  {
+    "id": "m_b204c9584b6d2798",
+    "name": "EMPORIUM",
+    "normalized_name": "emporium"
+  },
+  {
+    "id": "m_b29d0c8a955e9baa",
+    "name": "Don't tell Mama",
+    "normalized_name": "don't tell mama"
+  },
+  {
+    "id": "m_b39170b137e0c667",
+    "name": "דלתא",
+    "normalized_name": "דלתא"
+  },
+  {
+    "id": "m_b3e99fe9e43af360",
+    "name": "FlyFoot",
+    "normalized_name": "flyfoot"
+  },
+  {
+    "id": "m_b41cec700990d72f",
+    "name": "בר הפרה",
+    "normalized_name": "בר הפרה"
+  },
+  {
+    "id": "m_b41e9c9f1025d15a",
+    "name": "דרים ספא הרצליה",
+    "normalized_name": "דרים ספא הרצליה"
+  },
+  {
+    "id": "m_b46bdc51ec41dc8f",
+    "name": "Laline",
+    "normalized_name": "laline"
+  },
+  {
+    "id": "m_b4a0e16037f1147e",
+    "name": "Erroca by Super-Pharm",
+    "normalized_name": "erroca by super-pharm"
+  },
+  {
+    "id": "m_b4bdccd8ad886abc",
+    "name": "שני יעקובי",
+    "normalized_name": "שני יעקובי"
+  },
+  {
+    "id": "m_b4e8d8e845c6266d",
+    "name": "פרימה",
+    "normalized_name": "פרימה"
+  },
+  {
+    "id": "m_b6531b47e53c4221",
+    "name": "התרנגול הכחול",
+    "normalized_name": "התרנגול הכחול"
+  },
+  {
+    "id": "m_b6b6dcc077045103",
+    "name": "בוצ'רי אחוזת בשר (כשר)",
+    "normalized_name": "בוצ'רי אחוזת בשר (כשר)"
+  },
+  {
+    "id": "m_b7640a3977662d96",
+    "name": "איז קפה (כשר) - זכרון יעקוב",
+    "normalized_name": "איז קפה (כשר) - זכרון יעקוב"
+  },
+  {
+    "id": "m_b77345589c025f6b",
+    "name": "סלקשיין",
+    "normalized_name": "סלקשיין"
+  },
+  {
+    "id": "m_b778ded90258dd7b",
+    "name": "ורדינון",
+    "normalized_name": "ורדינון"
+  },
+  {
+    "id": "m_b9888bf533b0a65c",
+    "name": "הבריאות שבפינוק",
+    "normalized_name": "הבריאות שבפינוק"
+  },
+  {
+    "id": "m_b99a34b179e74231",
+    "name": "רוזנבאום תכשיטים",
+    "normalized_name": "רוזנבאום תכשיטים"
+  },
+  {
+    "id": "m_b9dd9870613c6265",
+    "name": "Rikoshet",
+    "normalized_name": "rikoshet"
+  },
+  {
+    "id": "m_bd034fa8bb69c3ec",
+    "name": "AIMEE",
+    "normalized_name": "aimee"
+  },
+  {
+    "id": "m_bf29eae9163ce0bf",
+    "name": "ליאור מוצרי חשמל",
+    "normalized_name": "ליאור מוצרי חשמל"
+  },
+  {
+    "id": "m_bf7e615aaff96c20",
+    "name": "Casa Do Brasil - אילת",
+    "normalized_name": "casa do brasil - אילת"
+  },
+  {
+    "id": "m_c04bc270f965db4d",
+    "name": "RAY",
+    "normalized_name": "ray"
+  },
+  {
+    "id": "m_c25825a1239e67ac",
+    "name": "Garmin",
+    "normalized_name": "garmin"
+  },
+  {
+    "id": "m_c4050bc49e7c4b97",
+    "name": "נעמן",
+    "normalized_name": "נעמן"
+  },
+  {
+    "id": "m_c478361e6869af25",
+    "name": "STORY",
+    "normalized_name": "story"
+  },
+  {
+    "id": "m_c4afc1803d44b38e",
+    "name": "Factory 54",
+    "normalized_name": "factory 54"
+  },
+  {
+    "id": "m_c6bfe107faeb4f97",
+    "name": "אחוזת הירדן יסוד המעלה",
+    "normalized_name": "אחוזת הירדן יסוד המעלה"
+  },
+  {
+    "id": "m_c6f6a1d3821ffde8",
+    "name": "Black restaurants",
+    "normalized_name": "black restaurants"
+  },
+  {
+    "id": "m_c6f9024b32194781",
+    "name": "ASA Izakaya",
+    "normalized_name": "asa izakaya"
+  },
+  {
+    "id": "m_c7531b7ed32c8e76",
+    "name": "GREENZ CAFE",
+    "normalized_name": "greenz cafe"
+  },
+  {
+    "id": "m_c88254c2d64eb06a",
+    "name": "רוסטרס (כשר)",
+    "normalized_name": "רוסטרס (כשר)"
+  },
+  {
+    "id": "m_c8eb8cb4ae3a2e8b",
+    "name": "משלוחה",
+    "normalized_name": "משלוחה"
+  },
+  {
+    "id": "m_c914c01fc2e30bd4",
+    "name": "אווזי שכונת התקווה (כשר)",
+    "normalized_name": "אווזי שכונת התקווה (כשר)"
+  },
+  {
+    "id": "m_c9a94abe4ee7d832",
+    "name": "Legal Outfit",
+    "normalized_name": "legal outfit"
+  },
+  {
+    "id": "m_ca1ef8a037cc09fc",
+    "name": "ASK Q",
+    "normalized_name": "ask q"
+  },
+  {
+    "id": "m_cb374572bf7e7f25",
+    "name": "KIKO MILANO",
+    "normalized_name": "kiko milano"
+  },
+  {
+    "id": "m_cc6feb82c1ce4cf5",
+    "name": "ספפי - ספת משחק משפחתית",
+    "normalized_name": "ספפי - ספת משחק משפחתית"
+  },
+  {
+    "id": "m_ce8e43836e891296",
+    "name": "Hipster",
+    "normalized_name": "hipster"
+  },
+  {
+    "id": "m_ce99c0f51e3d1586",
+    "name": "קפה גרג סניף מלחה (כשר)",
+    "normalized_name": "קפה גרג סניף מלחה (כשר)"
+  },
+  {
+    "id": "m_cee48a389fb4581d",
+    "name": "נורי קיטשן& סושי בר (כשר)",
+    "normalized_name": "נורי קיטשן& סושי בר (כשר)"
+  },
+  {
+    "id": "m_d2ec137464c8b2f5",
+    "name": "H&O Kids",
+    "normalized_name": "h&o kids"
+  },
+  {
+    "id": "m_d30b7b549ca72f9a",
+    "name": "Share spa",
+    "normalized_name": "share spa"
+  },
+  {
+    "id": "m_d601e2e7df4577a7",
+    "name": "TOPTEN",
+    "normalized_name": "topten"
+  },
+  {
+    "id": "m_d6f3cb03c32e97ce",
+    "name": "תכשיטי דנון",
+    "normalized_name": "תכשיטי דנון"
+  },
+  {
+    "id": "m_d7951d37face50f5",
+    "name": "צומת ספרים",
+    "normalized_name": "צומת ספרים"
+  },
+  {
+    "id": "m_d9523c878eeb29e7",
+    "name": "Wine Club",
+    "normalized_name": "wine club"
+  },
+  {
+    "id": "m_d98d2db28fc3c7a2",
+    "name": "כרמא עין כרם",
+    "normalized_name": "כרמא עין כרם"
+  },
+  {
+    "id": "m_d99ce9bd38d9f7e9",
+    "name": "Dalal Patisserie",
+    "normalized_name": "dalal patisserie"
+  },
+  {
+    "id": "m_da0d8fb7cbce48b8",
+    "name": "Oliere Paris",
+    "normalized_name": "oliere paris"
+  },
+  {
+    "id": "m_daaa286c7ad74ec6",
+    "name": "ARTERRA",
+    "normalized_name": "arterra"
+  },
+  {
+    "id": "m_db69d9e47d022d71",
+    "name": "שף שי אוחנה- בית ספר לקולינריה גבוהה",
+    "normalized_name": "שף שי אוחנה- בית ספר לקולינריה גבוהה"
+  },
+  {
+    "id": "m_db6b22d67335051d",
+    "name": "WORD by story",
+    "normalized_name": "word by story"
+  },
+  {
+    "id": "m_db7d7f362a1b3426",
+    "name": "Biliblond",
+    "normalized_name": "biliblond"
+  },
+  {
+    "id": "m_dc000c711ebc98c0",
+    "name": "אצה סושי בר",
+    "normalized_name": "אצה סושי בר"
+  },
+  {
+    "id": "m_dcaf70d75f2828c5",
+    "name": "Nimrod shoes",
+    "normalized_name": "nimrod shoes"
+  },
+  {
+    "id": "m_dcda5ebf7a16551d",
+    "name": "Bleecker Bakery",
+    "normalized_name": "bleecker bakery"
+  },
+  {
+    "id": "m_dcf957aba10d240c",
+    "name": "פודסטפס (כשר)",
+    "normalized_name": "פודסטפס (כשר)"
+  },
+  {
+    "id": "m_dda0c9943c24565c",
+    "name": "MOY",
+    "normalized_name": "moy"
+  },
+  {
+    "id": "m_dde2641c95b3c564",
+    "name": "NOOLA סדנאות בישול",
+    "normalized_name": "noola סדנאות בישול"
+  },
+  {
+    "id": "m_de4b30567fd37b71",
+    "name": "AMA-LURRA",
+    "normalized_name": "ama-lurra"
+  },
+  {
+    "id": "m_de5d048571dd0d44",
+    "name": "speedo",
+    "normalized_name": "speedo"
+  },
+  {
+    "id": "m_de84d4cad74cbb82",
+    "name": "גרקו בוזוקיה, הרצליה",
+    "normalized_name": "גרקו בוזוקיה, הרצליה"
+  },
+  {
+    "id": "m_deaa52b5e0819cbb",
+    "name": "FESTIVE",
+    "normalized_name": "festive"
+  },
+  {
+    "id": "m_df50de15c515062f",
+    "name": "Gracia",
+    "normalized_name": "gracia"
+  },
+  {
+    "id": "m_df53c2156a866f60",
+    "name": "קל גב",
+    "normalized_name": "קל גב"
+  },
+  {
+    "id": "m_df835dcf8d6c492c",
+    "name": "CASTRO",
+    "normalized_name": "castro"
+  },
+  {
+    "id": "m_dfdbd44ae38a5069",
+    "name": "BUMPERS",
+    "normalized_name": "bumpers"
+  },
+  {
+    "id": "m_e30db69b6ecdecd1",
+    "name": "יערית",
+    "normalized_name": "יערית"
+  },
+  {
+    "id": "m_e34917c0ed55cb9b",
+    "name": "H&M",
+    "normalized_name": "h&m"
+  },
+  {
+    "id": "m_e4301502fa9a6966",
+    "name": "Slav&So | סריגה.יצירה.קהילה",
+    "normalized_name": "slav&so | סריגה.יצירה.קהילה"
+  },
+  {
+    "id": "m_e47aeb01ee6bfc6b",
+    "name": "בוניטה דה מאס",
+    "normalized_name": "בוניטה דה מאס"
+  },
+  {
+    "id": "m_e55dfe4c54a6524b",
+    "name": "KUMI",
+    "normalized_name": "kumi"
+  },
+  {
+    "id": "m_e6511ebed2711c73",
+    "name": "תיק התיקים",
+    "normalized_name": "תיק התיקים"
+  },
+  {
+    "id": "m_e66f46655d02281c",
+    "name": "מלון ומוזיאון דונה גרציה",
+    "normalized_name": "מלון ומוזיאון דונה גרציה"
+  },
+  {
+    "id": "m_e8664a7e33f2daff",
+    "name": "Taizu restaurant",
+    "normalized_name": "taizu restaurant"
+  },
+  {
+    "id": "m_e8fcac1e4876234c",
+    "name": "BROWNIE",
+    "normalized_name": "brownie"
+  },
+  {
+    "id": "m_e9197f4d70a33a0c",
+    "name": "JEZ V",
+    "normalized_name": "jez v"
+  },
+  {
+    "id": "m_e93a3362c8e1fb8b",
+    "name": "Yanka Chocolate",
+    "normalized_name": "yanka chocolate"
+  },
+  {
+    "id": "m_e9a55167d47c8dce",
+    "name": "מוצצים",
+    "normalized_name": "מוצצים"
+  },
+  {
+    "id": "m_ea3794e16b259114",
+    "name": "Popina restaurant",
+    "normalized_name": "popina restaurant"
+  },
+  {
+    "id": "m_ea4337b1eb3fd88d",
+    "name": "פיצה וינו- יקב בהט",
+    "normalized_name": "פיצה וינו- יקב בהט"
+  },
+  {
+    "id": "m_ec397f133ef2eb57",
+    "name": "קפה גרג מתחם G כפר סבא",
+    "normalized_name": "קפה גרג מתחם g כפר סבא"
+  },
+  {
+    "id": "m_eca6b315ffa51342",
+    "name": "סלון יווני Yasso",
+    "normalized_name": "סלון יווני yasso"
+  },
+  {
+    "id": "m_edfc685f856421f3",
+    "name": "עגליס",
+    "normalized_name": "עגליס"
+  },
+  {
+    "id": "m_eefa3980fdf345e9",
+    "name": "KFC",
+    "normalized_name": "kfc"
+  },
+  {
+    "id": "m_ef53f72f70f30be5",
+    "name": "Under Armour",
+    "normalized_name": "under armour"
+  },
+  {
+    "id": "m_ef5db19e884a9dc5",
+    "name": "POLGAT",
+    "normalized_name": "polgat"
+  },
+  {
+    "id": "m_efbb2549a9fcb3f5",
+    "name": "כרמלה",
+    "normalized_name": "כרמלה"
+  },
+  {
+    "id": "m_f093132b261f1bae",
+    "name": "דרך היין",
+    "normalized_name": "דרך היין"
+  },
+  {
+    "id": "m_f119f317755c4334",
+    "name": "Laster design",
+    "normalized_name": "laster design"
+  },
+  {
+    "id": "m_f1abe1b083d12d18",
+    "name": "GUESS",
+    "normalized_name": "guess"
+  },
+  {
+    "id": "m_f30f6247a4f3230a",
+    "name": "SWEETWEET",
+    "normalized_name": "sweetweet"
+  },
+  {
+    "id": "m_f32360408b076628",
+    "name": "H&O",
+    "normalized_name": "h&o"
+  },
+  {
+    "id": "m_f33ea29475ef1d7a",
+    "name": "Hili Toys",
+    "normalized_name": "hili toys"
+  },
+  {
+    "id": "m_f3402f64d5ed7e32",
+    "name": "ספא גולדן קראון נצרת",
+    "normalized_name": "ספא גולדן קראון נצרת"
+  },
+  {
+    "id": "m_f3702a491c1f2f8a",
+    "name": "אופטיקה הלפרין",
+    "normalized_name": "אופטיקה הלפרין"
+  },
+  {
+    "id": "m_f4118699e904048e",
+    "name": "אגאדיר",
+    "normalized_name": "אגאדיר"
+  },
+  {
+    "id": "m_f44ba8c29b1d7e40",
+    "name": "Mr. Pretzels",
+    "normalized_name": "mr. pretzels"
+  },
+  {
+    "id": "m_f482752e75363eee",
+    "name": "רשת מלונות ישרוטל",
+    "normalized_name": "רשת מלונות ישרוטל"
+  },
+  {
+    "id": "m_f4bbe9378141d56f",
+    "name": "OTILYAS",
+    "normalized_name": "otilyas"
+  },
+  {
+    "id": "m_f5e7f95ef8ae3963",
+    "name": "Minene",
+    "normalized_name": "minene"
+  },
+  {
+    "id": "m_f61cdd619e49723f",
+    "name": "TULA",
+    "normalized_name": "tula"
+  },
+  {
+    "id": "m_f6b2e2b19409cfbf",
+    "name": "הום סנטר",
+    "normalized_name": "הום סנטר"
+  },
+  {
+    "id": "m_f757b1ddd22ef6ba",
+    "name": "Joya",
+    "normalized_name": "joya"
+  },
+  {
+    "id": "m_f80337145f4ef487",
+    "name": "ADSEA",
+    "normalized_name": "adsea"
+  },
+  {
+    "id": "m_f8d9df9073799712",
+    "name": "Ofek Woodi סדנת נגרות בעמק חפר",
+    "normalized_name": "ofek woodi סדנת נגרות בעמק חפר"
+  },
+  {
+    "id": "m_f8f377da26bc84da",
+    "name": "Eye Glow",
+    "normalized_name": "eye glow"
+  },
+  {
+    "id": "m_f950f8aec75240ce",
+    "name": "The Black Box",
+    "normalized_name": "the black box"
+  },
+  {
+    "id": "m_fa7ed9ab4d30bcf8",
+    "name": "מסעדת חנדלה",
+    "normalized_name": "מסעדת חנדלה"
+  },
+  {
+    "id": "m_faeb635d43169048",
+    "name": "Desigual",
+    "normalized_name": "desigual"
+  },
+  {
+    "id": "m_fafb963dc4512a2b",
+    "name": "יקב קטרון Kitron",
+    "normalized_name": "יקב קטרון kitron"
+  },
+  {
+    "id": "m_fb00e9d3d2c4a290",
+    "name": "ASAF & TOMER",
+    "normalized_name": "asaf & tomer"
+  },
+  {
+    "id": "m_fd0ba7bb8baed2ad",
+    "name": "Baby Star",
+    "normalized_name": "baby star"
+  },
+  {
+    "id": "m_fd3402030692b015",
+    "name": "באולינג 7",
+    "normalized_name": "באולינג 7"
+  },
+  {
+    "id": "m_fe36001752af4073",
+    "name": "יקב אלבר",
+    "normalized_name": "יקב אלבר"
+  },
+  {
+    "id": "m_fe4eaf8997ac4b31",
+    "name": "אלוף ספורט",
+    "normalized_name": "אלוף ספורט"
+  },
+  {
+    "id": "m_fe726ad93c615f47",
+    "name": "מסעדת חצר עין כרם ירושלים",
+    "normalized_name": "מסעדת חצר עין כרם ירושלים"
+  },
+  {
+    "id": "m_ff9685b9c891ce5e",
+    "name": "PELLE by shelly gafni",
+    "normalized_name": "pelle by shelly gafni"
+  }
+]

@@ -1,0 +1,893 @@
+[
+  {
+    "coverage": "partial",
+    "id": "azrieli",
+    "issuer": "BUYME / Azrieli",
+    "name": "AZRIELI",
+    "notes": "Participating branches INSIDE Azrieli malls only, not all merchant branches.",
+    "source_url": "https://buyme.co.il/brands/398383",
+    "updated_at": "2026-10-19T12:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-all",
+    "issuer": "BUYME",
+    "name": "BUYME ALL",
+    "notes": "Curated subset from a public list advertising 1,320 businesses; NOT complete.",
+    "source_url": "https://buyme.co.il/brands/13438757/",
+    "updated_at": "2026-10-19T12:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-baby",
+    "issuer": "BUYME",
+    "name": "BUYME BABY",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-brunch",
+    "issuer": "BUYME",
+    "name": "BUYME BRUNCH",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-cheers",
+    "issuer": "BUYME",
+    "name": "BUYME CHEERS",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-fashion-beauty",
+    "issuer": "BUYME",
+    "name": "BUYME FASHION & BEAUTY",
+    "notes": "Curated subset from a public list advertising 313 businesses; NOT complete.",
+    "source_url": "https://buyme.co.il/brands/20620/",
+    "updated_at": "2026-10-19T12:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-foody",
+    "issuer": "BUYME",
+    "name": "BUYME FOODY",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-home-design",
+    "issuer": "BUYME",
+    "name": "BUYME HOME DESIGN",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-local",
+    "issuer": "BUYME",
+    "name": "BUYME LOCAL",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "buyme-yng",
+    "issuer": "BUYME",
+    "name": "BUYME YNG",
+    "notes": "Product listed by issuer; merchant directory not extracted. Not the same product as BUYME ALL.",
+    "source_url": "https://buyme.co.il/categories/48",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "carrefour-food-voucher",
+    "issuer": "Carrefour",
+    "name": "Carrefour Food Voucher",
+    "notes": "Carrefour explicitly listed as accepted merchant in official FAQ; Tav Plus also supported by other networks not yet mapped.",
+    "source_url": "https://brand.carrefour.co.il/content/qanda_digitaltav",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "carrefour-tav-plus",
+    "issuer": "Carrefour",
+    "name": "Tav Plus (Carrefour)",
+    "notes": "Carrefour explicitly listed as accepted merchant in official FAQ; Tav Plus also supported by other networks not yet mapped.",
+    "source_url": "https://brand.carrefour.co.il/content/qanda_digitaltav",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "happygift-multi",
+    "issuer": "HappyGift",
+    "name": "HappyGift Multi",
+    "notes": "Public issuer merchant list; branch-specific entries remain branch-specific.",
+    "source_url": "https://catalog.happygift.co.il/coupon-suppliers/3198",
+    "updated_at": "2026-10-19T12:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-active",
+    "issuer": "Swish",
+    "name": "Swish Active",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-agalis",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Agalis",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-american-eagle",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - American Eagle",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-anniversary",
+    "issuer": "Swish",
+    "name": "Swish ANNIVERSARY",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-army",
+    "issuer": "Swish",
+    "name": "Swish Army",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-baby",
+    "issuer": "Swish",
+    "name": "Swish Baby",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-babystar",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Baby Star",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-billabong",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Billabong",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-birthday",
+    "issuer": "Swish",
+    "name": "Swish BIRTHDAY",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-black",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Black restaurants",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-bleecker-bakery",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Bleecker Bakery",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-brooks",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Brooks",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-brunch",
+    "issuer": "Swish",
+    "name": "Swish Brunch",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-carters",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Carter's",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-clearo",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Claro restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-columbia",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Columbia",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-dalal",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Dalal",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-dalal-patisserie",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Dalal Patisserie",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-desigual",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Desigual",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-dine-and-wine-chef",
+    "issuer": "Swish",
+    "name": "Swish Dine & Wine (chef)",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-dixie",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Dixie restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-dynamica",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Dynamica",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-extreme",
+    "issuer": "Swish",
+    "name": "Swish Extreme",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-factory54",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Factory 54",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-family",
+    "issuer": "Swish",
+    "name": "Swish Family",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-fashion",
+    "issuer": "Swish",
+    "name": "Swish Fashion",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-flying-tiger",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Flying Tiger",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-fox",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - FOX",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-fox-home",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - FOX HOME",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-fun",
+    "issuer": "Swish",
+    "name": "Swish Fun",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-giraffe",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Giraffe restaurants",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-golf",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - GOLF",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-golf-and-co",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - GOLF&CO",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-gosen",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Goshen restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-greco",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Greco restaurants",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-h-and-o",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - H&O",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-hamashbir",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - HaMashbir",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-holmes-place",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Holmes Place",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-home",
+    "issuer": "Swish",
+    "name": "Swish Home",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-hotels-and-spa",
+    "issuer": "Swish",
+    "name": "Swish Hotels & Spa",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-icell",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - I Cell",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-il-makiage",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - IL MAKIAGE",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-intima",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - INTIMA",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-jungle-pets",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Jungle pets",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-kids",
+    "issuer": "Swish",
+    "name": "Swish KIDS",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-kitan",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - KITAN",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-laline",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Laline",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-mango",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - MANGO",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-mega-sport",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Mega Sport",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-motsatsim",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Motsatsim",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-naaman",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Naaman",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-nautica",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Nautica",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-nautica-home",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Nautica Home",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-nimrod-shoes",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Nimrod shoes",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-nine-west",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - NINE WEST",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-nona-mimi",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Nono Mimi restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-omg",
+    "issuer": "Swish",
+    "name": "Swish OMG",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-opticana",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Opticana",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-plus",
+    "issuer": "Swish",
+    "name": "Swish Plus",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-pomo",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Pomo restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-popina",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Popina restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-rikoshet",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Rikoshet",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-sabon",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - SABON",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-saucony",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Saucony",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-schooly",
+    "issuer": "Swish",
+    "name": "Swish Schooly",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-segev-restaurants",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Segev restaurants",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-shila",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Shila restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-shilav",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Shilav",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-sinta-bar",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Sinta Bar",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-skechers",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Skechers",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-soltam",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Soltam",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-spa",
+    "issuer": "Swish",
+    "name": "Swish Spa",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-steve-madden",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Steve Madden",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-student",
+    "issuer": "Swish",
+    "name": "Swish STUDENT",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-super-couple",
+    "issuer": "Swish",
+    "name": "Swish Super Couple",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-taizu",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Taizu restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-tasty",
+    "issuer": "Swish",
+    "name": "Swish Tasty",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-teacher",
+    "issuer": "Swish",
+    "name": "Swish Teacher",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-theatre",
+    "issuer": "Swish",
+    "name": "Swish Theatre",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-tous",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - TOUS",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-travel",
+    "issuer": "Swish",
+    "name": "Swish TRAVEL",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-tyo",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - TYO restaurant",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-verdinon",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - Verdinon",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-winery",
+    "issuer": "Swish",
+    "name": "Swish WINERY",
+    "notes": "Product listed by issuer. Do not infer accepted stores from category description.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "swish-yolo",
+    "issuer": "Swish",
+    "name": "Swish Gift Card - YOLO",
+    "notes": "Product publicly listed; merchant coverage incomplete.",
+    "source_url": "https://swish.co.il/home/all-gifts-giftcard",
+    "updated_at": "2026-10-22T11:00:00Z"
+  },
+  {
+    "coverage": "partial",
+    "id": "tav-hazahav",
+    "issuer": "שופרסל",
+    "name": "תו הזהב",
+    "notes": "Selected relationships from an October 2026 media comparison, not extracted from a complete issuer list. Verify before checkout.",
+    "source_url": "https://www.poenta.co.il/article/tav/",
+    "updated_at": "2026-10-19T12:00:00Z"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "catalogSha256": "ff17d76ee9722b1ca92ce589dd52a554e7a07382fb6703a2ff3ff301d2d76cab",
+  "counts": {
+    "benefitCandidates": 0,
+    "buymeAcceptanceCandidates": 0,
+    "cards": 99,
+    "catalogCardMerchantLinks": 504,
+    "freshBenefitCandidates": 0,
+    "merchants": 409
+  },
+  "dataVersion": 20261113232348,
+  "fileSha256": {
+    "acceptance.json": "d32f9ab92a4cb7595ae23d98712b9e2c9a9b58a9715a1dd7d160674f3a5fbb39",
+    "cards.json": "dc8b04e059deeaa222a8ca8400d4ce05c78509d5c4f16e9a74bf2bbf0682602a",
+    "merchants.json": "d97c5795b5f9e51495ca02b8ae1ba00358f08f6dc4be1dc8b78a38ef46332776"
+  },
+  "generatedAt": "2026-11-13T23:23:48.538481+00:00",
+  "imports": {
+    "buymeOptional": 0,
+    "clawsavings": 0
+  },
+  "schemaVersion": 3,
+  "warning": "Candidates are NOT confirmed checkout acceptance; missing links mean unknown."
+}

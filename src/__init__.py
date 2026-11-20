@@ -1,0 +1,1 @@
+"""Unified gift card catalog."""
