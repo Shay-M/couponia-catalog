@@ -49,6 +49,9 @@ jobs:
             --clawsavings-url https://raw.githubusercontent.com/yhyatt/ClawSavings/main/discounts.json \
             --out dist/v3
 
+      - name: Guard against accidental baseline catalog shrink
+        run: python src/catalog_guard.py --seed seed/catalog-v2.db --catalog dist/v3/catalog.db
+
       - name: Compare with last published catalog
         id: release
         env:
@@ -59,18 +62,34 @@ jobs:
           python src/release.py --out dist/v3 \
             --previous-url "https://${OWNER_LOWER}.github.io/${REPOSITORY_NAME}/v3"
 
+      - name: Build approved and verified offers separately from gift-card catalog
+        # No automated scraping. Only manually reviewed data backed by a valid
+        # explicit redistribution grant can appear in the public offer feed.
+        run: python -m src.publish_offers --catalog-dir dist/v3 --out dist/offers/v1
+
+      - name: Compare offers with last published feed
+        id: offers
+        env:
+          REPOSITORY_OWNER: ${{ github.repository_owner }}
+          REPOSITORY_NAME: ${{ github.event.repository.name }}
+        run: |
+          OWNER_LOWER="${REPOSITORY_OWNER,,}"
+          python -m src.compare_offers \
+            --local dist/offers/v1/manifest.json \
+            --previous-url "https://${OWNER_LOWER}.github.io/${REPOSITORY_NAME}/offers/v1/manifest.json"
+
       - name: Configure GitHub Pages
-        if: steps.release.outputs.changed == 'true'
+        if: steps.release.outputs.changed == 'true' || steps.offers.outputs.changed == 'true'
         uses: actions/configure-pages@v5
       - name: Upload validated catalog
-        if: steps.release.outputs.changed == 'true'
+        if: steps.release.outputs.changed == 'true' || steps.offers.outputs.changed == 'true'
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
       - name: Publish updated catalog
-        if: steps.release.outputs.changed == 'true'
+        if: steps.release.outputs.changed == 'true' || steps.offers.outputs.changed == 'true'
         id: deploy
         uses: actions/deploy-pages@v4
       - name: Already up to date
-        if: steps.release.outputs.changed == 'false'
+        if: steps.release.outputs.changed == 'false' && steps.offers.outputs.changed == 'false'
         run: echo 'No catalog content changes. GitHub Pages was left unchanged.'

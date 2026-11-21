@@ -6,11 +6,11 @@ for a repository's GitHub Pages deployment, not a ready-made Room migration.
 import argparse
 import hashlib
 import json
+import math
 import os
 from datetime import date, datetime, timezone
 from contextlib import closing
 from pathlib import Path
-import re
 import shutil
 import sqlite3
 from urllib.request import Request, urlopen
@@ -31,7 +31,8 @@ def checksum(*values):
 
 def as_number(value):
     try:
-        return float(value) if value is not None and value != '' and not isinstance(value, bool) else None
+        number = float(value) if value is not None and value != '' and not isinstance(value, bool) else None
+        return number if number is not None and math.isfinite(number) else None
     except (ValueError, TypeError):
         return None
 
@@ -153,7 +154,7 @@ def dump_table(db, name):
 
 
 def json_write(path, data):
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True, allow_nan=False) + '\n', encoding='utf-8')
 
 
 def build(seed, output, claw=None, buyme=None, minimum=100, clock=None, curated=None):
@@ -210,9 +211,13 @@ def build(seed, output, claw=None, buyme=None, minimum=100, clock=None, curated=
                'freshBenefitCandidates':sum(x['freshness']=='fresh' for x in benefits),
                'buymeAcceptanceCandidates':len(acceptance),
                'curatedIssuerCards':curated_count['cards'],
-               'curatedIssuerLinks':curated_count['links']},
+               'curatedIssuerLinks':curated_count['links'],
+               'curatedExistingCardLinks':curated_count.get('existingLinks',0),
+               'curatedExistingDuplicates':curated_count.get('skippedExisting',0),
+               'curatedProductReviews':curated_count.get('productReviews',0)},
             'imports':{'clawsavings':n_claw,'buymeOptional':n_buyme,
-                       'reviewedIssuerFacts':curated_count['cards']},
+                       'reviewedIssuerFacts':curated_count['cards'],
+                       'reviewedExistingCardLinks':curated_count.get('existingLinks',0)},
             'catalogSha256':hashlib.sha256((output/'catalog.db').read_bytes()).hexdigest(),
             'fileSha256':{filename:hashlib.sha256((output/filename).read_bytes()).hexdigest()
                 for filename in ('cards.json','merchants.json','acceptance.json')},

@@ -11,10 +11,11 @@ from pathlib import Path
 def overdue_cards(payload, today=None, max_age_days=60):
     today = today or date.today()
     results = []
-    for item in payload.get('cards', []):
-        age = (today - date.fromisoformat(item['observedAt'][:10])).days
-        if age >= max_age_days:
-            results.append((item['id'], age, item['sourceUrl']))
+    for section, key in (('cards','id'),('existingCards','cardId'),('productReviews','cardId')):
+        for item in payload.get(section, []):
+            age = (today - date.fromisoformat(item['observedAt'][:10])).days
+            if age >= max_age_days:
+                results.append((item[key], age, item['sourceUrl']))
     return results
 
 
@@ -29,7 +30,8 @@ def main():
         print('Issuer review status: current within configured review window')
     for card, age, url in due:
         print(f'::warning::Issuer recheck due: {card} last reviewed {age} days ago; {url}')
-    print(f'Issuer review status: {len(due)} of {len(data.get("cards", []))} products require recheck')
+    total = sum(len(data.get(section, [])) for section in ('cards','existingCards','productReviews'))
+    print(f'Issuer review status: {len(due)} of {total} products require recheck')
 
 
 if __name__ == '__main__':

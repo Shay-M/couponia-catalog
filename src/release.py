@@ -16,8 +16,15 @@ from datetime import datetime, timezone
 from contextlib import closing
 from pathlib import Path
 import sqlite3
+import re
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+
+# Preserve the established CLI form: python src/release.py.
+if __package__ in (None, ''):
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from src.catalog_guard import assert_additive_records
 
 CORE = ('cards.json', 'merchants.json', 'acceptance.json')
 ENRICHMENTS = ('benefit_candidates.json', 'acceptance_candidates.json', 'sources.json')
@@ -51,7 +58,7 @@ def read_json(path):
     return json.loads(Path(path).read_text(encoding='utf-8'))
 
 
-def fetch_json(url, optional_404=False):
+def fetch_json(url, optional_404=False, expected_sha=None):
     if not url.startswith('https://'):
         raise ValueError('Previous catalog URL must use HTTPS')
     req = Request(url, headers={'User-Agent':'couponia-catalog-release/1.0',
@@ -65,6 +72,8 @@ def fetch_json(url, optional_404=False):
         raise
     if len(blob) > MAX_BYTES:
         raise ValueError('Previous catalog JSON too large')
+    if expected_sha is not None and hashlib.sha256(blob).hexdigest() != expected_sha:
+        raise ValueError('Previous catalog core checksum mismatch')
     return json.loads(blob)
 
 
@@ -74,10 +83,13 @@ def previous_from_url(base):
     manifest = fetch_json(f'{base}/manifest.json', optional_404=True)
     if manifest is None:
         return None
+    verify_manifest(manifest)
     files = {}
     for name in ENRICHMENTS:
         files[name] = fetch_json(f'{base}/{name}', optional_404=False)
-    return manifest, files
+    core = {name: fetch_json(f'{base}/{name}', expected_sha=manifest['fileSha256'][name])
+            for name in CORE}
+    return manifest, files, core
 
 
 def previous_from_dir(folder):
@@ -85,7 +97,15 @@ def previous_from_dir(folder):
     manifest = folder / 'manifest.json'
     if not manifest.exists():
         return None
-    return read_json(manifest), {name: read_json(folder / name) for name in ENRICHMENTS}
+    metadata = read_json(manifest)
+    verify_manifest(metadata)
+    core = {}
+    for name in CORE:
+        raw = (folder / name).read_bytes()
+        if hashlib.sha256(raw).hexdigest() != metadata['fileSha256'][name]:
+            raise ValueError('Previous catalog core checksum mismatch')
+        core[name] = json.loads(raw)
+    return metadata, {name: read_json(folder / name) for name in ENRICHMENTS}, core
 
 
 def verify_manifest(old):
@@ -96,7 +116,7 @@ def verify_manifest(old):
     if not isinstance(old.get('fileSha256'), dict):
         raise ValueError('Previous catalog is missing core SHA-256 values')
     if any(not isinstance(old['fileSha256'].get(name), str) or
-           len(old['fileSha256'][name]) != 64 for name in CORE):
+           not re.fullmatch(r'[0-9a-f]{64}', old['fileSha256'][name]) for name in CORE):
         raise ValueError('Previous catalog has invalid core checksums')
 
 
@@ -120,8 +140,12 @@ def publication_decision(directory, previous, clock=None):
     previous_core = None
     previous_enrich = None
     if previous is not None:
-        old, old_extra = previous
+        old, old_extra = previous[:2]
         verify_manifest(old)
+        # Both production readers supply core JSON. Two-item callers retain the
+        # older comparison API for pure decision tests that do not read snapshots.
+        if len(previous) >= 3:
+            assert_additive_records(previous[2], {name: read_json(directory / name) for name in CORE})
         previous_core = all(old['fileSha256'][name] == current['fileSha256'][name]
                             for name in CORE)
         previous_enrich = enrichment_hash(old_extra) == new_enrichment_hash
@@ -156,6 +180,8 @@ def publication_decision(directory, previous, clock=None):
     # generatedAt is updated only if the artifact is actually deployed.
     if changed:
         current['generatedAt'] = now.isoformat()
+    elif previous is not None:
+        current['generatedAt'] = previous[0].get('generatedAt', current['generatedAt'])
     with closing(sqlite3.connect(directory / 'catalog.db')) as db:
         db.execute('UPDATE catalog_meta SET data_version=? WHERE singleton=1', (core_version,))
         if db.total_changes != 1:

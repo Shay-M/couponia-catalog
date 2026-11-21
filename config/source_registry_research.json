@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Research-only source candidates for Couponia, not executable imports",
+  "createdAt": "2026-11-21",
+  "defaultEnabled": false,
+  "permissionPolicy": "No source may be ingested, cached or republished without a validated rights basis. Public web access or public GitHub repository is not authorization.",
+  "offerCandidateModel": {
+    "required": [
+      "provider_id",
+      "offer_id",
+      "merchant_name",
+      "offer_type",
+      "source_url",
+      "observed_at",
+      "verification_status"
+    ],
+    "recommended": [
+      "card_or_club_id",
+      "eligibility_summary",
+      "redemption_channel",
+      "discount_amount",
+      "discount_percent",
+      "face_value",
+      "purchase_price",
+      "points_cost",
+      "currency",
+      "valid_from",
+      "valid_until",
+      "stock_status",
+      "restrictions",
+      "last_checked_at",
+      "rights_basis"
+    ],
+    "types": [
+      "voucher_discount",
+      "cashback",
+      "pos_discount",
+      "coupon_code",
+      "points_redemption",
+      "two_for_one",
+      "gift_card_bonus"
+    ],
+    "publicationRule": "Only source-permitted, current, eligible offers may be labelled active. Unknown expiry/availability must display unknown, not active."
+  },
+  "sources": [
+    {
+      "id": "naveh-mycards",
+      "source_kind": "GitHub",
+      "url": "https://github.com/naveh92/MyCards",
+      "topics": [
+        "merchant-catalog",
+        "android-engineering"
+      ],
+      "priority": "high",
+      "use_policy": "research_only",
+      "rights_note": "Data scraped without clear rights; project root did not display a LICENSE. Ask author and verify issuer permissions.",
+      "research_note": "Offline fallbacks, per-card SHA and suspicious-shrink protection, Hebrew search variants, 24 documented card types.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "itay-coupon-master",
+      "source_kind": "GitHub",
+      "url": "https://github.com/itayk93/coupon-manager-react-native",
+      "topics": [
+        "wallet",
+        "coupon-lifecycle"
+      ],
+      "priority": "medium",
+      "use_policy": "engineering_reference",
+      "rights_note": "Repository has LICENSE; examine actual terms before code reuse. Its feature description is not an issuer database.",
+      "research_note": "Coupon vault, balance, expiry, photo scanning, biometric lock, notifications.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "savvy",
+      "source_kind": "GitHub",
+      "url": "https://github.com/sbaerlocher/savvy",
+      "topics": [
+        "wallet",
+        "architecture"
+      ],
+      "priority": "medium",
+      "use_policy": "engineering_reference",
+      "rights_note": "MIT license for code; no Israeli acceptance directory.",
+      "research_note": "Separate loyalty cards, coupons, gift cards; merchant-centric search and reminders.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "clawsavings",
+      "source_kind": "GitHub",
+      "url": "https://github.com/yhyatt/ClawSavings",
+      "topics": [
+        "discount-candidates"
+      ],
+      "priority": "high",
+      "use_policy": "existing_candidates_only",
+      "rights_note": "MIT code does not imply permission to redistribute all third-party offers.",
+      "research_note": "Already imported as unverified benefit candidates in Couponia CI; never as acceptance evidence.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "il-benefits-mcp",
+      "source_kind": "GitHub",
+      "url": "https://github.com/ofershap/mcp-server-il-benefits",
+      "topics": [
+        "live-cashback-search"
+      ],
+      "priority": "high",
+      "use_policy": "live_query_only_with_terms",
+      "rights_note": "GotCashback endpoint is per-query with attribution, no caching / systematic copying / republication.",
+      "research_note": "MIT implementation demonstrates live source adapter and query-time lookup.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "buyme-mcp",
+      "source_kind": "GitHub",
+      "url": "https://github.com/eladkishon/buyme-mcp",
+      "topics": [
+        "buyme-acceptance"
+      ],
+      "priority": "high",
+      "use_policy": "research_only",
+      "rights_note": "Do not copy the scraped issuer database into Couponia without rights clearance.",
+      "research_note": "Vendor/product discovery; differentiate BUYME product from individual brand gift card.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "yomu",
+      "source_kind": "GitHub",
+      "url": "https://github.com/maximunited/yomu",
+      "topics": [
+        "club-birthday-benefits"
+      ],
+      "priority": "low",
+      "use_policy": "research_only",
+      "rights_note": "Check current data, rights, and accuracy before any use.",
+      "research_note": "Birthday discounts and loyalty programs.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "hopala",
+      "source_kind": "ThirdParty",
+      "url": "https://hopala.io/blog/benefits-club-mcp.html",
+      "topics": [
+        "club-benefits"
+      ],
+      "priority": "high",
+      "use_policy": "permission_required",
+      "rights_note": "Historic collected offers, mixed logged-in sources; no proven redistribution rights.",
+      "research_note": "Article reports 22,877 offers across clubs and card providers; historical, not necessarily live.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "fid",
+      "source_kind": "ThirdParty",
+      "url": "https://fidapp.org/",
+      "topics": [
+        "gift-cards",
+        "club-benefits"
+      ],
+      "priority": "high",
+      "use_policy": "partner_permission_required",
+      "rights_note": "Commercial aggregation; public viewing does not grant data rights.",
+      "research_note": "Potential partnership/licensed feed for multi-club coverage.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "max-benefits",
+      "source_kind": "OfficialIssuer",
+      "url": "https://www.max.co.il/benefits/lobby",
+      "topics": [
+        "credit-card-coupons"
+      ],
+      "priority": "high",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Official page is evidence that an offer was shown, not a license for bulk rehosting.",
+      "research_note": "1+1, points/pinukim, cashback and some sold-out items; store eligibility.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "isracard-benefits",
+      "source_kind": "OfficialIssuer",
+      "url": "https://benefits.isracard.co.il/",
+      "topics": [
+        "credit-card-coupons"
+      ],
+      "priority": "high",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Offer restrictions and entitlement may vary by product; secure a feed license before automatic redistribution.",
+      "research_note": "Cardholder offers, vouchers and discounts.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "cal-benefits",
+      "source_kind": "OfficialIssuer",
+      "url": "https://www.cal-online.co.il/benefits",
+      "topics": [
+        "credit-card-coupons"
+      ],
+      "priority": "high",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Digital vouchers may only be listed in the Cal mobile app; no attempt to bypass sign-in.",
+      "research_note": "Experience store, up-to-30-percent digital vouchers and travel offers.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "amex-rewards",
+      "source_kind": "OfficialIssuer",
+      "url": "https://rewards.americanexpress.co.il/parentcategories/pointsandbonus/",
+      "topics": [
+        "credit-card-points"
+      ],
+      "priority": "high",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Eligibility and points costs must be validated; no assumed cash equivalence.",
+      "research_note": "Rewards combining money and points.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "leumi-bonus",
+      "source_kind": "OfficialIssuer",
+      "url": "https://www.leumi.co.il/he/bonus",
+      "topics": [
+        "bank-card-benefits"
+      ],
+      "priority": "high",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Bonus balance and eligibility are personal; offers expire; do not store credentials.",
+      "research_note": "Leumi Bonus gift-card bonus, discounts at charge, points/between-month conditions.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "poalim-wonder",
+      "source_kind": "OfficialIssuer",
+      "url": "https://www.bankhapoalim.co.il/Poalim-Wonder/Fun",
+      "topics": [
+        "bank-card-benefits"
+      ],
+      "priority": "medium",
+      "use_policy": "manual_offer_review",
+      "rights_note": "Requires eligible customer/card; some coupons may appear only in app.",
+      "research_note": "Offers combining cash and bank reward points.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "swish-plus",
+      "source_kind": "OfficialIssuer",
+      "url": "https://swish.co.il/home/all-gifts-giftcard/product-105984",
+      "topics": [
+        "gift-card-acceptance"
+      ],
+      "priority": "high",
+      "use_policy": "issuer_manual_or_licensed_feed",
+      "rights_note": "Exact Swish gift-card product scope; verify each participating merchant and channel.",
+      "research_note": "Card redemption list link and issuer product terms.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "swish-behatzdaa",
+      "source_kind": "OfficialIssuer",
+      "url": "https://swish.co.il/home/day-giftcard/product-164271",
+      "topics": [
+        "restricted-club-gift-card"
+      ],
+      "priority": "high",
+      "use_policy": "issuer_manual_or_licensed_feed",
+      "rights_note": "Special Behatzdaa product must not be merged with ordinary Swish Plus.",
+      "research_note": "-30% club-labelled product has different channel, expiry, monthly use limits.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    },
+    {
+      "id": "giftcard-global",
+      "source_kind": "GitHub",
+      "url": "https://github.com/dehbini/giftcard-catalog",
+      "topics": [
+        "global-card-identification"
+      ],
+      "priority": "low",
+      "use_policy": "engineering_reference",
+      "rights_note": "MIT licensed data reported; not an Israeli acceptance map.",
+      "research_note": "Code formatting and global redemption restrictions; useful only if scope expands abroad.",
+      "checked_at": "2026-11-21",
+      "enabled": false
+    }
+  ]
+}

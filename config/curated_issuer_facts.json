@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "reviewedAt": "2026-11-21",
-  "policy": "Small manually reviewed issuer-product facts; never treat incomplete listings as a full or POS-verified merchant directory.",
+  "policy": "Selected factual issuer observations only; no full directory copying. Existing card links are append-only and unreviewed credit-card benefits are never accepted as voucher redemption evidence.",
   "cards": [
     {
       "id": "isracard-gift-card",
@@ -12,13 +12,32 @@
       "observedAt": "2026-11-21T00:00:00Z",
       "notes": "Issuer page shows a partial list. Terms and participating branches may change; check the official issuer list before purchase.",
       "merchants": [
-        {"name":"THE CHILDRENS PLACE","existingName":"The Children's Place"},
-        {"name":"ניין ווסט","existingName":"NINE WEST"},
-        "ורדינון", "גלי",
-        {"name":"לי קופר","existingName":"Lee Cooper"},
+        {
+          "name": "THE CHILDRENS PLACE",
+          "existingName": "The Children's Place"
+        },
+        {
+          "name": "ניין ווסט",
+          "existingName": "NINE WEST"
+        },
+        "ורדינון",
+        "גלי",
+        {
+          "name": "לי קופר",
+          "existingName": "Lee Cooper"
+        },
         "סולוג",
-        {"name":"אמריקן איגל","existingName":"American Eagle"},
-        "Billabong", "נעמן", "TOMMY HILFIGER", "צומת ספרים", "FOX", "Laline", "FOX HOME"
+        {
+          "name": "אמריקן איגל",
+          "existingName": "American Eagle"
+        },
+        "Billabong",
+        "נעמן",
+        "TOMMY HILFIGER",
+        "צומת ספרים",
+        "FOX",
+        "Laline",
+        "FOX HOME"
       ]
     },
     {
@@ -29,37 +48,119 @@
       "sourceUrl": "https://www.isracard.co.il/credit-cards/gift-card-isracard",
       "observedAt": "2026-11-21T00:00:00Z",
       "notes": "Issuer lists food and other participating businesses. Product is distinct from the Gift Card at /gift-card; partial list only.",
-      "merchants": ["FACTORY54", "סופר יודה", "היפר דודו", "הסטוק", "DIESEL", "שירה מרקט", "טיב טעם", "פרש מרקט", "נתיב החסד", "בר כל טוב", "H&M", "מחסני השוק", "חצי חינם", "ויקטורי"]
+      "merchants": [
+        "FACTORY54",
+        "סופר יודה",
+        "היפר דודו",
+        "הסטוק",
+        "DIESEL",
+        "שירה מרקט",
+        "טיב טעם",
+        "פרש מרקט",
+        "נתיב החסד",
+        "בר כל טוב",
+        "H&M",
+        "מחסני השוק",
+        "חצי חינם",
+        "ויקטורי"
+      ]
     },
     {
       "id": "max-gift-card",
       "name": "Gift Card MAX",
       "issuer": "MAX",
       "sourceId": "max-gift-card-official",
-      "sourceUrl": "https://www.max.co.il/cards/giftcards",
-      "observedAt": "2026-11-21T00:00:00Z",
-      "notes": "Issuer confirms product; no merchant associations imported until exact product and channel restrictions are reviewed.",
-      "merchants": []
+      "sourceUrl": "https://www.max.co.il/SharedMedia/24100/gc-max-digital.pdf",
+      "observedAt": "2026-11-20T22:30:00Z",
+      "notes": "Issuer PDF identifies Gift Card MAX and its own participating brands. Redemption conditions differ by network and channel; check MYGIFT before use. This is a selected sample, not the entire network.",
+      "merchants": [
+        "FOX",
+        "FOX HOME",
+        "GOLF",
+        {
+          "name": "GOLF & Co.",
+          "existingName": "GOLF&CO"
+        },
+        {
+          "name": "Gali",
+          "existingName": "גלי"
+        },
+        "שילב",
+        "TERMINAL X",
+        "NINE WEST",
+        "מגה ספורט",
+        "MANGO",
+        "נעמן",
+        "ורדינון",
+        {
+          "name": "ACE",
+          "restrictionNote": "Issuer leaflet excludes certain product categories and restricts promotions; confirm terms at purchase."
+        },
+        "Foot Locker",
+        "Timberland",
+        "Lee Cooper",
+        "SABON",
+        {
+          "name": "STEVE MADDEN",
+          "existingName": "Steve Madden"
+        }
+      ]
     },
     {
       "id": "max-super-gift-card",
       "name": "Super Gift Card MAX",
       "issuer": "MAX",
       "sourceId": "max-super-gift-card-official",
-      "sourceUrl": "https://www.max.co.il/cards/giftcards",
-      "observedAt": "2026-11-21T00:00:00Z",
-      "notes": "Different MAX product. Do not transfer retailers from ordinary MAX Gift Card by assumption.",
-      "merchants": []
+      "sourceUrl": "https://www.max.co.il/SharedMedia/24087/gc-max-super.pdf",
+      "observedAt": "2026-11-20T22:30:00Z",
+      "notes": "Separate issuer PDF for Super Gift Card MAX, including food retailers and fashion. Some online/delivery redemptions use special digital vouchers; those are intentionally excluded from this sample.",
+      "merchants": [
+        "FOX",
+        "FOX HOME",
+        "GOLF",
+        "NINE WEST",
+        "שילב",
+        "מגה ספורט",
+        {
+          "name": "Gali",
+          "existingName": "גלי"
+        },
+        "ACE",
+        "Foot Locker",
+        "Timberland",
+        "American Eagle",
+        "Laline",
+        "INTIMA",
+        "נעמן",
+        "ורדינון",
+        "ויקטורי",
+        "טיב טעם",
+        "מחסני השוק",
+        {
+          "name": "McDonald's",
+          "existingName": "מקדונלדס"
+        },
+        "Burger King"
+      ]
     },
     {
       "id": "gifta-gift-card",
       "name": "Gifta Gift Card",
       "issuer": "Gifta",
       "sourceId": "gifta-gift-card-official",
-      "sourceUrl": "https://gifta.co.il/שאלות-ותשובות-2/",
-      "observedAt": "2026-11-21T00:00:00Z",
-      "notes": "Issuer confirms physical and digital Gift Card products. Merchant acceptance varies by card subtype; no unverified relationships imported.",
-      "merchants": []
+      "sourceUrl": "https://gifta.co.il/גיפטא-פוד/",
+      "observedAt": "2026-11-20T22:30:00Z",
+      "notes": "General Gifta participating-network logos shown on the issuer site; this is not the separate Gifta Food roster. Card-subtype restrictions must be checked on the issuer merchant page.",
+      "merchants": [
+        "תכשיק",
+        "13 אווניו",
+        "מנטור",
+        "אנג'לס",
+        "בזאר שטראוס",
+        "מזל חזוט",
+        "סטייליש",
+        "פרסטר כובעים"
+      ]
     },
     {
       "id": "gifta-food",
@@ -69,6 +170,264 @@
       "sourceUrl": "https://gifta.co.il/גיפטא-פוד/",
       "observedAt": "2026-11-21T00:00:00Z",
       "notes": "Separate issuer-listed product; exact compatible merchants pending independent review.",
+      "merchants": []
+    },
+    {
+      "id": "isracard-digital-gift-card",
+      "name": "Digital Gift Card Isracard",
+      "issuer": "Isracard",
+      "sourceId": "isracard-digital-gift-card-official",
+      "sourceUrl": "https://www.isracard.co.il/credit-cards/digital-gift-card",
+      "observedAt": "2026-11-20T22:30:00Z",
+      "notes": "Digital Isracard gift card has a distinct issuer roster. This is a limited set of logo-listed networks, not acceptance evidence for all variants, channels or branches.",
+      "merchants": [
+        {
+          "name": "גולף",
+          "existingName": "GOLF"
+        },
+        "סופר יודה",
+        "מחסני להב",
+        "חביב",
+        {
+          "name": "משביר",
+          "existingName": "המשביר לצרכן"
+        },
+        "סופר דוש",
+        "מחסני מזון",
+        "טיב טעם",
+        "פרש מרקט",
+        "מחסני השוק",
+        "ACE",
+        "חצי חינם",
+        "ויקטורי",
+        {
+          "name": "מנגו",
+          "existingName": "MANGO"
+        }
+      ]
+    },
+    {
+      "id": "isracard-gift-card-shopping",
+      "name": "Gift Card Shopping Isracard",
+      "issuer": "Isracard",
+      "sourceId": "isracard-gift-card-shopping-official",
+      "sourceUrl": "https://www.isracard.co.il/credit-cards/gift-card-shopping",
+      "observedAt": "2026-11-20T22:30:00Z",
+      "notes": "Distinct Isracard Shopping product with an issuer-specific participating-network list. Sample only; verify branch and product exclusions on the official site.",
+      "merchants": [
+        "ARCOSTEEL",
+        "עגליס",
+        "סאלח דאבח",
+        "הלפרין",
+        "Toys R Us",
+        {
+          "name": "STEVE MADDEN",
+          "existingName": "Steve Madden"
+        },
+        "היפר כהן",
+        "HAVAIANAS",
+        "REPLAY",
+        "H&M",
+        {
+          "name": "בורגר קינג",
+          "existingName": "Burger King"
+        },
+        "מחסני השוק",
+        "שפע ברכת השם",
+        "ויקטורי"
+      ]
+    },
+    {
+      "id": "htzone-giftzone",
+      "name": "GiftZone (HTZone)",
+      "issuer": "HTZone",
+      "sourceId": "htzone-giftzone-official-20261121",
+      "sourceUrl": "https://www.htzone.co.il/voucher-zone/4",
+      "observedAt": "2026-11-21T00:20:00Z",
+      "notes": "Issuer is Heybeez Ltd; product is sold through HTZone. Network and channel exclusions differ, outlet stores are usually excluded. Product-specific sample, never assume nationwide or online support.",
+      "merchants": [
+        {
+          "name": "JanSport",
+          "restrictionNote": "Issuer shows online-only redemption, not physical stores.",
+          "redemptionChannel": "online",
+          "listingScope": "online"
+        },
+        {
+          "name": "נעמן",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "ורדינון",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "CASTRO",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "GOLF",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "צומת ספרים",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "adidas",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "SWAROVSKI",
+          "restrictionNote": "Only the specified physical branches are included; see issuer roster.",
+          "redemptionChannel": "in_store",
+          "listingScope": "selected_branches"
+        },
+        {
+          "name": "Castro Home",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "סולוג"
+        },
+        {
+          "name": "EMPORIUM"
+        },
+        {
+          "name": "LOCCITANE",
+          "restrictionNote": "Issuer lists both physical branches and online redemption.",
+          "redemptionChannel": "both"
+        },
+        {
+          "name": "POLGAT",
+          "restrictionNote": "Excludes outlet branches and online purchasing.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "GANT",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "GOLF&CO",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "food appeal",
+          "restrictionNote": "Issuer lists both online and physical redemption.",
+          "redemptionChannel": "both"
+        },
+        {
+          "name": "Nautica",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "המשביר לצרכן",
+          "restrictionNote": "Issuer says physical branches only; no online redemption.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "סולתם",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "SOHO",
+          "restrictionNote": "Issuer lists both online and physical redemption.",
+          "redemptionChannel": "both"
+        },
+        {
+          "name": "מגה ספורט",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "Carter's",
+          "restrictionNote": "Issuer says physical branches only.",
+          "redemptionChannel": "in_store"
+        },
+        {
+          "name": "מוצצים"
+        }
+      ]
+    }
+  ],
+  "existingCards": [
+    {
+      "cardId": "buyme-baby",
+      "expectedName": "BUYME BABY",
+      "issuer": "BUYME",
+      "sourceId": "buyme-baby-official-20261121",
+      "sourceUrl": "https://buyme.co.il/brands/9018727",
+      "observedAt": "2026-11-21T00:24:00Z",
+      "updateSourceUrl": true,
+      "merchants": [
+        "עגליס",
+        "Biamba",
+        "Lorens",
+        "Nanobebe",
+        "LAMER",
+        "H&O Kids",
+        "Garmin",
+        "GUESS"
+      ]
+    },
+    {
+      "cardId": "buyme-brunch",
+      "expectedName": "BUYME BRUNCH",
+      "issuer": "BUYME",
+      "sourceId": "buyme-brunch-official-20261121",
+      "sourceUrl": "https://buyme.co.il/brands/17573615",
+      "observedAt": "2026-11-21T00:25:00Z",
+      "updateSourceUrl": true,
+      "merchants": [
+        "Claro",
+        "Mashya",
+        "Good Morning Sunshine",
+        {
+          "name": "סניפים נבחרים ברשת קפה גרג",
+          "restrictionNote": "Only selected participating Cafe Greg branches, not the entire chain.",
+          "redemptionChannel": "in_store",
+          "listingScope": "selected_branches"
+        }
+      ]
+    },
+    {
+      "cardId": "buyme-local",
+      "expectedName": "BUYME LOCAL",
+      "issuer": "BUYME",
+      "sourceId": "buyme-local-official-20261121",
+      "sourceUrl": "https://buyme.co.il/brands/17573670",
+      "observedAt": "2026-11-21T00:26:00Z",
+      "updateSourceUrl": true,
+      "merchants": [
+        "Enerjucier",
+        "Eureka Workshop",
+        "Extreme",
+        "FLY AWAY",
+        "Foody",
+        "Gaby's",
+        "Gitta bags"
+      ]
+    }
+  ],
+  "productReviews": [
+    {
+      "cardId": "swish-plus",
+      "expectedName": "Swish Plus",
+      "issuer": "Swish",
+      "sourceId": "swish-plus-product-official-20261121",
+      "sourceUrl": "https://swish.co.il/home/all-gifts-giftcard/product-105984",
+      "observedAt": "2026-11-21T00:28:00Z",
+      "note": "Reviewed product page: issuer says merchant list can change, online and outlet redemption are often restricted. No merchant roster was independently verified; no new accepting merchant links are asserted.",
       "merchants": []
     }
   ]

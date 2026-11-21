@@ -1,4 +1,12 @@
+# הגרסה הנוכחית — Stage 5.6
+
+הוראות ותיאור השינויים נמצאים ב־[docs/UPDATE_STAGE56_HE.md](docs/UPDATE_STAGE56_HE.md). חבילה זו כוללת את ה־seed המקורי ואת כל קובצי המחולל הנדרשים. נתוני `dist` נוצרים בבנייה ואינם כלולים בחבילת המקור. הסעיפים הישנים בהמשך נשמרים כהיסטוריית עדכונים.
+
+**Couponia v3.4 (2026-11-21):** Product-scoped issuer review added for existing BUYME cards; GiftZone HTZone curated sample; official Swish Plus product URL; additive catalog guard; disabled credit-benefits groundwork. Local preview: **108 products, 462 merchants, 648 links**. See [v3.4 installation and verification](docs/UPDATE_v34.md). No Android changes or live offer ingestion.
+
 <div dir="rtl">
+
+**עדכון 21.11.2026 — v3.3:** נוספו שני מוצרי ישראכרט נוספים, שיוכים נפרדים לשני מוצרי MAX, ומדגם Gifta. גרסה מצטברת: 107 כרטיסים / 445 עסקים / 606 שיוכים. ראו [הוראות v3.3](docs/UPDATE_v33_HE.md).
 
 **עדכון 21.11.2026 — v3.2:** נוספו 6 סוגי תווים ו־28 שיוכים ממדגם בדיקה של שני מוצרי ישראכרט; אין שינוי בפורמט Android. ראו [הוראות עדכון v3.2](docs/UPDATE_v32_HE.md).
 
@@ -15,7 +23,7 @@
 - `seed/catalog-v2.db` — 99 כרטיסים, 409 עסקים, 504 קשרים; רשימה חלקית שתוקפה תלוי בתאריך ומקור כל קשר.
 - `src/build.py` — מחולל SQLite v3 ותוצרי JSON ליישום Android.
 - `.github/workflows/publish-catalog.yml` — בדיקות והפקה יומית של JSON ו-SQLite, פרסום דרך GitHub Pages.
-- `tests/` — ארבע בדיקות עם נתונים סינתטיים לבחינת שמירת בסיס הנתונים, סינון מידע ישן והגנה ממיפוי שגוי.
+- `tests/` — בדיקות אוטומטיות לבחינת שמירת בסיס הנתונים, סינון מידע ישן והגנה ממיפוי שגוי.
 - `dist/v3/` — תוצר **שנבנה ב־GitHub Actions**; אין צורך להעלות ידנית קבצים מיושנים מה־ZIP. אפשר לבנות Preview מקומי בלי רשת, אך הוא לא יכלול את הטבות ClawSavings החיות.
 
 ## מה בדקנו בפרויקטי GitHub

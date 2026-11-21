@@ -1,0 +1,477 @@
+{
+  "project": "Couponia",
+  "stage": "5.6",
+  "userFacingDate": "2026-11-21",
+  "userTimezone": "Asia/Jerusalem",
+  "androidVersionName": "1.0.5",
+  "androidVersionCode": 9,
+  "android": {
+    "dateUtc": "2026-11-21T09:02:19.330836+00:00",
+    "gradle": "9.4.1",
+    "jdk": "JetBrains 21.0.10",
+    "sdk": "platforms;android-37.0",
+    "gates": {
+      "testDebugUnitTest": "PASS",
+      "lintDebug": "PASS",
+      "assembleDebug": "PASS",
+      "assembleDebugAndroidTest": "PASS"
+    },
+    "unit": {
+      "suites": 31,
+      "tests": 123,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "details": [
+        {
+          "name": "com.silverhorse.couponia.core.benefits.BenefitOfferFeedTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.073",
+          "timestamp": "2026-11-21T09:02:03.093Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.benefits.BenefitProviderDirectoryTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.168Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.benefits.BenefitPublisherContractTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.004",
+          "timestamp": "2026-11-21T09:02:03.171Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.benefits.BenefitSnapshotPolicyTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.176Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.benefits.ShoppingPolicyTest",
+          "tests": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.008",
+          "timestamp": "2026-11-21T09:02:03.179Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.catalog.BalanceCheckDirectoryTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.0",
+          "timestamp": "2026-11-21T09:02:03.189Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.catalog.CatalogSearchTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.014",
+          "timestamp": "2026-11-21T09:02:03.190Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.catalog.CatalogSnapshotCodecTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.088",
+          "timestamp": "2026-11-21T09:02:03.207Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.catalog.CatalogUpdatePolicyTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.297Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.data.BackupArchiveReaderTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.583",
+          "timestamp": "2026-11-21T09:02:02.505Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.model.BalanceHistoryTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.003",
+          "timestamp": "2026-11-21T09:02:03.299Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.model.CouponTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.303Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.network.CouponParserTest",
+          "tests": 17,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.002",
+          "timestamp": "2026-11-21T09:02:03.305Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.network.GeminiManagerTest",
+          "tests": 11,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.01",
+          "timestamp": "2026-11-21T09:02:03.309Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.network.GeminiProtocolTest",
+          "tests": 5,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.003",
+          "timestamp": "2026-11-21T09:02:03.322Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.security.BiometricLockDefaultsTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.326Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.security.BiometricReauthPolicyTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.328Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.share.CouponShareFormatterTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.005",
+          "timestamp": "2026-11-21T09:02:03.330Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.share.IncomingSharePolicyTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.336Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.storage.AtomicImageStoreTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.006",
+          "timestamp": "2026-11-21T09:02:03.341Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.utils.CouponDatePolicyTest",
+          "tests": 6,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.349Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.utils.CouponImageSizingTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.011",
+          "timestamp": "2026-11-21T09:02:03.351Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.core.utils.MoneyParsingTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.002",
+          "timestamp": "2026-11-21T09:02:03.363Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.features.add_coupon.domain.AnalyzeCouponUseCaseTest",
+          "tests": 1,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.026",
+          "timestamp": "2026-11-21T09:02:03.366Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.features.add_coupon.domain.CouponTextParserDateTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.004",
+          "timestamp": "2026-11-21T09:02:03.395Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.features.add_coupon.domain.strategies.FallbackAnalysisStrategyTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.002",
+          "timestamp": "2026-11-21T09:02:03.401Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.features.add_coupon.ui.AnalysisMoneyPolicyTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.002",
+          "timestamp": "2026-11-21T09:02:03.405Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.features.add_coupon.ui.CatalogTitlePolicyTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.001",
+          "timestamp": "2026-11-21T09:02:03.408Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.ui.model.CategoryUiMapperTest",
+          "tests": 3,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.056",
+          "timestamp": "2026-11-21T09:02:03.410Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.utils.ParserUtilsTest",
+          "tests": 2,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.04",
+          "timestamp": "2026-11-21T09:02:03.468Z"
+        },
+        {
+          "name": "com.silverhorse.couponia.worker.ExpirySchedulePolicyTest",
+          "tests": 4,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0,
+          "time": "0.002",
+          "timestamp": "2026-11-21T09:02:03.514Z"
+        }
+      ]
+    },
+    "lint": {
+      "severity": {
+        "Warning": 26
+      },
+      "issueCounts": {
+        "EmptySuperCall": 1,
+        "OldTargetApi": 1,
+        "NewerVersionAvailable": 1,
+        "ComposableNaming": 1,
+        "PluralsCandidate": 9,
+        "IconXmlAndPng": 2,
+        "MonochromeLauncherIcon": 2,
+        "IconLocation": 1,
+        "UseKtx": 8
+      },
+      "errors": 0,
+      "warnings": 26
+    },
+    "artifacts": [
+      {
+        "path": "app/build/outputs/apk/androidTest/debug/app-debug-androidTest.apk",
+        "bytes": 1163165,
+        "sha256": "28bd4ae49e874d719f5600fe9affdd109bc27de6f013715823af3c8db1f57348",
+        "purpose": "verification only; not included as an installable release in source packages"
+      },
+      {
+        "path": "app/build/outputs/apk/debug/app-debug.apk",
+        "bytes": 67006327,
+        "sha256": "10dbf956af6f40e3ab5f0da170be59046f0e55fcf5dfe4346c259f32d699cb48",
+        "purpose": "verification only; not included as an installable release in source packages"
+      }
+    ],
+    "schemas": [
+      {
+        "path": "app/schemas/com.silverhorse.couponia.core.catalog.CatalogDatabase/1.json",
+        "sha256": "9e150ee0533059b084c1bb0700d834d7f61dbd6bbaecfc3a7eff0a696a9a3af7",
+        "databaseVersion": 1,
+        "identityHash": "8e11a28aafdbff47fe49dc32d9a95e34"
+      },
+      {
+        "path": "app/schemas/com.silverhorse.couponia.core.data.AppDatabase/3.json",
+        "sha256": "188b8147dd0369b2140090d072c4c9a599d790fbb15e3f1979d70db5d8939e89",
+        "databaseVersion": 3,
+        "identityHash": "98c77dca594fb8cc46acb567ba11bd14"
+      }
+    ],
+    "instrumentation": {
+      "compiledTestMethods": 41,
+      "executed": false,
+      "reason": "No /dev/kvm or vmx/svm; current emulator requires hardware acceleration.",
+      "executionCount": 0
+    },
+    "toolchain": {
+      "gradle": "9.4.1",
+      "agp": "9.2.1",
+      "kotlin": "2.3.21",
+      "ksp": "2.3.10",
+      "javaVendor": "JetBrains",
+      "jdk": "21.0.10",
+      "compileSdk": 37,
+      "targetSdk": 36,
+      "minSdk": 26,
+      "sdkPlatform": "37.0",
+      "buildTools": "36.0.0"
+    },
+    "apkContents": {
+      "syntheticBenefitsContractEntries": [],
+      "catalogAssets": [
+        {
+          "entry": "assets/catalog/v3/manifest.json",
+          "bytes": 1187,
+          "sha256": "9fd0e43971ab24b3834e1c44c1262415237562a32f308bbe21a098dff9a82052",
+          "matchesCurrentSource": true
+        },
+        {
+          "entry": "assets/catalog/v3/cards.json",
+          "bytes": 35038,
+          "sha256": "3cd64c7cf3a099f6d600fcbccc9f692ee53998ebefefa4553153a80d8b69b32e",
+          "matchesCurrentSource": true
+        },
+        {
+          "entry": "assets/catalog/v3/merchants.json",
+          "bytes": 53327,
+          "sha256": "1a574b05f0e7ef21a5343cc30c7b6812727f0543bec51f109c37cbd237314e8e",
+          "matchesCurrentSource": true
+        },
+        {
+          "entry": "assets/catalog/v3/acceptance.json",
+          "bytes": 234868,
+          "sha256": "e26a96f639e929353bfdfb7bc5a1408b349c2a57e88d979e04283180f4db01a1",
+          "matchesCurrentSource": true
+        }
+      ],
+      "catalogManifest": {
+        "catalogSha256": "7fce1d53c31f9e80a6164a0820dea9be27ce4dd73156e6620a0c6b534b928d14",
+        "counts": {
+          "benefitCandidates": 38,
+          "buymeAcceptanceCandidates": 0,
+          "cards": 108,
+          "catalogCardMerchantLinks": 648,
+          "curatedExistingCardLinks": 19,
+          "curatedExistingDuplicates": 0,
+          "curatedIssuerCards": 9,
+          "curatedIssuerLinks": 125,
+          "curatedProductReviews": 1,
+          "freshBenefitCandidates": 0,
+          "merchants": 462
+        },
+        "dataVersion": 20261121084655,
+        "enrichmentSha256": "f7e96279030a4fd8b77ee72b7ceac3734d9faa21aaf03686c0275ae62b2e97a7",
+        "enrichmentVersion": 0,
+        "fileSha256": {
+          "acceptance.json": "e26a96f639e929353bfdfb7bc5a1408b349c2a57e88d979e04283180f4db01a1",
+          "cards.json": "3cd64c7cf3a099f6d600fcbccc9f692ee53998ebefefa4553153a80d8b69b32e",
+          "merchants.json": "1a574b05f0e7ef21a5343cc30c7b6812727f0543bec51f109c37cbd237314e8e"
+        },
+        "generatedAt": "2026-11-21T08:46:55.659949+00:00",
+        "imports": {
+          "buymeOptional": 0,
+          "clawsavings": 38,
+          "reviewedExistingCardLinks": 19,
+          "reviewedIssuerFacts": 9
+        },
+        "schemaVersion": 3,
+        "warning": "Candidates are NOT confirmed checkout acceptance; missing links mean unknown."
+      }
+    },
+    "appMetadata": {
+      "applicationId": "com.silverhorse.couponia",
+      "versionCode": 9,
+      "versionName": "1.0.5",
+      "signing": "Debug key from this environment; apksigner v2 verification succeeded",
+      "existingInstallationSignatureCompatibility": "Not assumed"
+    }
+  },
+  "catalogTests": {
+    "tests": 64,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  "catalog": {
+    "dataVersion": 20261121084655,
+    "cards": 108,
+    "merchants": 462,
+    "acceptanceLinks": 648,
+    "unknownRedemptionChannelLinks": 627,
+    "livePurchaseOffers": 0,
+    "sourceRegistrationsEnabled": 0,
+    "seedOriginCommit": "e35892177a2bca54b7d0c469f9241fa76a8697f0",
+    "seedSha256": "54c899ffceb6d8525f70896925204fe2b8957ccdf2ba8eb1298b077f52449dbf",
+    "originalSeedGuard": "PASS",
+    "liveClawSavingsFetch": "PASS",
+    "unverifiedBenefitCandidates": 38,
+    "previousPublishedCatalogHashAndRegressionCheck": "PASS"
+  },
+  "deployment": {
+    "gitPushPerformed": false,
+    "githubPagesPublished": false,
+    "playStorePublished": false,
+    "userDeviceUpdated": false
+  },
+  "limits": [
+    "Instrumented tests were compiled but not executed; supported emulator acceleration is unavailable.",
+    "No current verified HOT purchase offer for Shufersal Sheli or Bair.",
+    "No inferred acceptance across chain formats, branches or unknown channels.",
+    "Debug APK uses environment debug key; user must build with their existing signing key.",
+    "Historical merchant facts were not all reverified during this code audit."
+  ]
+}

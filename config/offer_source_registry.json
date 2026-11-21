@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Research-only credit card and member benefit sources. No automated feed enabled.",
+  "enabledByDefault": false,
+  "sources": [
+    {
+      "id": "max-benefits",
+      "issuer": "MAX",
+      "url": "https://www.max.co.il/benefits/lobby",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "isracard-benefits",
+      "issuer": "Isracard",
+      "url": "https://benefits.isracard.co.il/",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "cal-benefits",
+      "issuer": "Cal",
+      "url": "https://www.cal-online.co.il/benefits",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "amex-rewards",
+      "issuer": "American Express",
+      "url": "https://rewards.americanexpress.co.il/parentcategories/pointsandbonus/",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "leumi-bonus",
+      "issuer": "Leumi",
+      "url": "https://www.leumi.co.il/he/bonus",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "poalim-wonder",
+      "issuer": "Bank Hapoalim",
+      "url": "https://www.bankhapoalim.co.il/Poalim-Wonder/Fun",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "htzone-benefits",
+      "issuer": "HTZone",
+      "url": "https://www.htzone.co.il/",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    },
+    {
+      "id": "hot-club",
+      "issuer": "HOT Consumer Club",
+      "url": "https://www.hot.co.il/",
+      "enabled": false,
+      "rightsStatus": "not_verified",
+      "dataPurpose": "discovery_only"
+    }
+  ]
+}
